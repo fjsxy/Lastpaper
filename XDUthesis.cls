@@ -571,6 +571,15 @@ By \par%
      \setlength{\leftmargin}{2\labelwidth}}}
   {\end{list}}
 
+%% resume list no publish
+\newenvironment{resumelistnopub}[1]
+  {{\subsection*{\textbf{#1}}\CTEXindent}%
+   \begin{list}{}
+    {\setlength{\topsep}{0pt}\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}
+     \CTEXnoindent\normalfont\XDU@font@st\XDU@font@zihao{-4}
+     \setlength{\leftmargin}{2\labelwidth}}}
+  {\end{list}}
+  
 \newenvironment{resumelist*}
   {\begin{list}{}
     {\setlength{\topsep}{0pt}\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}
