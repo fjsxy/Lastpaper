@@ -1,0 +1,2768 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="孙煊溢-开题报告true.files/filelist.xml">
+<link rel=Edit-Time-Data href="孙煊溢-开题报告true.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>xwb</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>sun xuanyi</o:LastAuthor>
+  <o:Revision>10</o:Revision>
+  <o:TotalTime>394</o:TotalTime>
+  <o:LastPrinted>2019-07-05T08:46:00Z</o:LastPrinted>
+  <o:Created>2015-07-29T07:30:00Z</o:Created>
+  <o:LastSaved>2019-07-05T08:55:00Z</o:LastSaved>
+  <o:Pages>13</o:Pages>
+  <o:Words>1110</o:Words>
+  <o:Characters>6330</o:Characters>
+  <o:Lines>52</o:Lines>
+  <o:Paragraphs>14</o:Paragraphs>
+  <o:CharactersWithSpaces>7426</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:TargetScreenSize>800x600</o:TargetScreenSize>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="孙煊溢-开题报告true.files/themedata.thmx">
+<link rel=colorSchemeMapping href="孙煊溢-开题报告true.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>77</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>5.25 磅</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>14.25 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+   <w:UseWord97LineBreakingRules/>
+   <w:BreakWrappedTables/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+   <w:DontUseIndentAsNumberingTabStop/>
+   <w:FELineBreak11/>
+   <w:WW11IndentRules/>
+   <w:DontAutofitConstrainedTables/>
+   <w:AutofitLikeWW11/>
+   <w:UnderlineTabInNumList/>
+   <w:HangulWidthLikeWW11/>
+   <w:UseNormalStyleForList/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:NoLineBreaksAfter Lang="ZH-CN">([{·‘“〈《「『【〔〖（．［｛￡￥</w:NoLineBreaksAfter>
+  <w:NoLineBreaksBefore Lang="ZH-CN">!),.:;?]}¨·ˇˉ―‖’”…∶、。〃々〉》」』】〕〗！＂＇），．：；？］｀｜｝～￠</w:NoLineBreaksBefore>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="59" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-alt:SimHei;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:华文中宋;
+	panose-1:2 1 6 0 4 1 1 1 1 1;
+	mso-font-alt:微软雅黑;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:647 135200768 16 0 262303 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"\@华文中宋";
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:647 135200768 16 0 262303 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"批注文字 字符1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"页眉 字符1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"页脚 字符1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-ansi-font-size:10.5pt;
+	mso-bidi-font-size:10.5pt;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"正文文本 字符1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"正文文本缩进 3 字符1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:27.6pt;
+	line-height:150%;
+	mso-pagination:none;
+	layout-grid-mode:char;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:1.0pt;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:批注文字;
+	mso-style-link:"批注主题 字符1";
+	mso-style-next:批注文字;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"批注框文本 字符1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;
+	mso-ansi-language:X-NONE;
+	mso-fareast-language:X-NONE;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a
+	{mso-style-name:"批注文字 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注文字;
+	mso-ansi-font-size:10.5pt;
+	mso-font-kerning:1.0pt;}
+span.a0
+	{mso-style-name:"页眉 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+span.a1
+	{mso-style-name:"页脚 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+span.a2
+	{mso-style-name:"正文文本 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:正文文本;
+	mso-ansi-font-size:10.5pt;
+	mso-font-kerning:1.0pt;}
+span.3
+	{mso-style-name:"正文文本缩进 3 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"正文文本缩进 3";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	mso-font-kerning:1.0pt;}
+span.a3
+	{mso-style-name:"批注主题 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"批注文字 字符";
+	mso-style-link:批注主题;
+	mso-ansi-font-size:10.5pt;
+	mso-font-kerning:1.0pt;
+	font-weight:bold;}
+span.a4
+	{mso-style-name:"批注框文本 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+span.1
+	{mso-style-name:"批注文字 字符1";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:批注文字;
+	mso-ansi-font-size:10.5pt;
+	mso-font-kerning:1.0pt;}
+span.10
+	{mso-style-name:"页眉 字符1";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+span.11
+	{mso-style-name:"页脚 字符1";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+span.12
+	{mso-style-name:"正文文本 字符1";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:正文文本;
+	mso-ansi-font-size:10.5pt;
+	mso-font-kerning:1.0pt;}
+span.31
+	{mso-style-name:"正文文本缩进 3 字符1";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"正文文本缩进 3";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	mso-font-kerning:1.0pt;}
+span.13
+	{mso-style-name:"批注主题 字符1";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:批注主题;
+	mso-ansi-font-size:10.5pt;
+	mso-font-kerning:1.0pt;
+	font-weight:bold;}
+span.14
+	{mso-style-name:"批注框文本 字符1";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"";
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 3.0cm 70.9pt 3.0cm;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:14.25pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]-->
+<meta http-equiv=X-UA-Compatible content="IE=7">
+<meta http-equiv=X-UA-Compatible content="IE=7">
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.25pt;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:14.25pt'>
+
+<p class=MsoNormal style='line-height:20.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:20.0pt'><span lang=EN-US
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b style='mso-bidi-font-weight:normal'><span style='font-size:
+16.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>学号</span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:16.0pt;mso-bidi-font-size:12.0pt'> </span></b><u><span
+lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'>17031211602</span></u><span
+lang=EN-US style='font-size:14.0pt;mso-bidi-font-size:12.0pt;mso-fareast-font-family:
+黑体'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt;mso-fareast-font-family:黑体'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt;mso-fareast-font-family:黑体'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>西</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt'> </span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>安</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt'> </span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>电</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt'> </span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>子</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt'> </span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>科</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt'> </span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>技</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt'> </span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>大</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt'> </span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>学</span></b><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:18.0pt;mso-bidi-font-size:
+12.0pt;font-family:黑体;mso-hansi-font-family:"Times New Roman"'>硕士学位论文开题报告表<span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:33.75pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+ mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=142 valign=top style='width:3.0cm;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:20.0pt'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:
+  宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>论文题目：</span></b><span
+  lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+  <td width=512 valign=top style='width:307.3pt;border:none;border-bottom:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>室内移动机器人精确跟踪定位技术研究</span><span
+  lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;line-height:20.0pt'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:97.55pt;border-collapse:collapse;mso-yfti-tbllook:1184;
+ mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=130 valign=top style='width:77.95pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:20.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>姓</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>名</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=248 valign=top style='width:148.85pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+  line-height:20.0pt'><span style='font-size:16.0pt;mso-bidi-font-size:12.0pt;
+  font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>孙煊溢</span><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=130 valign=top style='width:77.95pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:20.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>一级学科</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=248 valign=top style='width:148.85pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+  line-height:20.0pt'><span style='font-size:16.0pt;mso-bidi-font-size:12.0pt;
+  font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>软件工程</span><span lang=EN-US style='font-size:16.0pt;
+  mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=130 valign=top style='width:77.95pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:20.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>二级学科</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=248 valign=top style='width:148.85pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+  line-height:20.0pt'><span style='font-size:16.0pt;mso-bidi-font-size:12.0pt;
+  font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>软件工程</span><span lang=EN-US style='font-size:16.0pt;
+  mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=130 valign=top style='width:77.95pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:20.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>指导导师</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=248 valign=top style='width:148.85pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+  line-height:20.0pt'><span style='font-size:16.0pt;mso-bidi-font-size:12.0pt;
+  font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>张亮</span><span lang=EN-US style='font-size:16.0pt;
+  mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=130 valign=top style='width:77.95pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:20.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>学</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></b><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>院</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=248 valign=top style='width:148.85pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+  line-height:20.0pt'><span style='font-size:16.0pt;mso-bidi-font-size:12.0pt;
+  font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>计算机学院</span><span lang=EN-US style='font-size:16.0pt;
+  mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+  <td width=130 valign=top style='width:77.95pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;line-height:20.0pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+  "Times New Roman"'>开题日期</span></b><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></b></p>
+  </td>
+  <td width=248 valign=top style='width:148.85pt;border:none;border-bottom:
+  solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;padding:
+  0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+  line-height:20.0pt'><span lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:
+  12.0pt'>2019.1.20<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal align=center style='margin-top:6.0pt;text-align:center;
+line-height:20.0pt'><b style='mso-bidi-font-weight:normal'><u><span lang=EN-US
+style='font-size:12.0pt'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt;
+mso-bidi-font-size:12.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt'><span
+style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>西安电子科技大学研究生院制</span><span
+lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt;
+mso-line-height-rule:exactly'><span style='font-size:16.0pt;font-family:华文中宋'>西安电子科技大学硕士学位论文开题报告要求<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+font-family:宋体'>一、</span><span style='font-size:12.0pt;font-family:宋体;
+mso-font-kerning:0pt'>硕士研究生必须在<span class=GramE>第三学</span>期末之前进行学位论文开题报告。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+font-family:宋体;mso-font-kerning:0pt'>二、硕士学位论文的开题报告会由各学院自行组织，硕士研究生必须如实、如期在本学科（领域）或相关学科（领域）范围内公开举行开题报告会，严禁伪造和抄袭开题报告。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt'>三、</span><span
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'>开题报告结论分为两种：<span
+lang=EN-US>1.</span>通过，按专家意见修改后进行学位论文撰写工作；<span lang=EN-US>2.</span>不通过，重新开题。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+font-family:宋体;mso-font-kerning:0pt'>四、在学位论文开题规定的时间期限内休学的硕士研究生，开题的时间期限相应顺延。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+font-family:宋体;mso-font-kerning:0pt'>五、</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:
+ZH-CN'>开题必须在规定时间内通过研究生学位管理系统申请，本表由系统自动生成，用A3纸张正反套印。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:
+ZH-CN'>六、表格填写要求：正文字体宋体，字号小四，行间距固定值20磅。<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0'><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体'>一、论文概况<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.5pt'>
+  <td width=727 style='width:436.0pt;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:21.5pt'>
+  <p class=MsoNormal style='line-height:12.0pt;mso-pagination:widow-orphan'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  宋体'>选题来源<span lang=EN-US>: </span></span></b><span style='font-size:12.0pt;
+  font-family:宋体;mso-bidi-font-weight:bold'>其他</span><span lang=EN-US
+  style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:
+  0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:21.05pt'>
+  <td width=727 style='width:436.0pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:21.05pt'>
+  <p class=MsoNormal style='line-height:12.0pt;mso-line-height-rule:exactly;
+  mso-pagination:widow-orphan'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>中文摘要：</span></b><span lang=EN-US
+  style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:
+  0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;height:601.85pt'>
+  <td width=727 valign=top style='width:436.0pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:601.85pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-pagination:widow-orphan'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:
+  0pt'>目标跟踪技术是一项估计物体在场景中运动状态的技术，该技术在计算机视觉领域中应用广泛，尤其是结合移动机器人进行的位姿估计研究，是当今计算机视觉领域中的一大热点。室内移动机器人是一种应用于室内环境下，具有自行组织、自主运行、自主规划等鲜明特点的智能机器人。对室内移动机器人进行准确的定位和跟踪，可以对计算机视觉算法进行低成本高精度的评估。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-pagination:widow-orphan'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:
+  0pt'>本文设计与实现了一种基于多相机的室内移动机器人跟踪定位系统，该系统的核心是<span lang=EN-US>3D-2D</span>位姿估计算法<span
+  class=SpellE><span lang=EN-US>epnp</span></span>，采用了多个全局快门的工业相机。该系统共分为三个模块，相机外参的标定模块，机器人位姿估计模块，跟踪结果可视化模块。相机外参的标定模块使用<span
+  class=SpellE><span lang=EN-US>epnp</span></span>算法对固定位置的相机进行外参数标定，得到精度较高的相机位姿；机器人位姿估计模块中各个相机通过核相关滤波<span
+  lang=EN-US>(<span class=SpellE>kcf</span>)</span>跟踪算法对视野中的移动机器人进行跟踪，接着对跟踪区域中的特征点进行高精度的检测，并借助标记<span
+  lang=EN-US>(Tag)</span>再次使用<span class=SpellE><span lang=EN-US>epnp</span></span>算法估计机器人的位姿；跟踪结果可视化模块对位姿估计的结果进行可视化。此外为了进一步提高位姿估计的精度，本文设计了优化相机外参标定精度和特征点检测精度的方法。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-pagination:widow-orphan'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt'><span
+  style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:
+  0pt'>本文设计的室内移动机器人跟踪系统具有一定的稳定性，使用多个工业相机降低了实现成本，同时对机器人的定位和跟踪有一定的精度，具有较高的应用价值。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+</table>
+
+<span lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:
+宋体;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体'>二、选题依据<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:625.6pt'>
+  <td width=703 valign=top style='width:421.9pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:625.6pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>（一）选题意义<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-pagination:widow-orphan'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:
+  0pt'>目标跟踪技术在计算机视觉领域中的应用更多的是根据跟踪结果制作轨迹数据集，使用数据集去衡量评估一些视觉算法例如<span lang=EN-US>slam</span>算法的精度。目前为了控制精度和成本，工业中大多使用单个相机并使镜头平行地面安装进行数据集的采集，这样做使得跟踪的范围非常有限，只能在一个非常小的场景中对机器人进行跟踪，而且相机的安装角度特殊使得采集的图片过于单一，无法适用于相机随意安装的场合。针对以上问题提出可以扩大至室内场景且对相机安装角度没有特殊要求的多相机跟踪系统，在成本与精度之间找到较好的平衡点，可以在工业中以更好的泛用性、可控制的精度以及成本被应用。</span><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>（二）国内外研究现状<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>目标跟踪是计算机视觉领域的一个重要问题，在运动分析、视频压缩、行为识别、视频监控、智能交通和机器人导航等很多研究方向上都有着广泛的应用。近几年来目标跟踪主要分为两部分：基于相关滤波的目标跟踪以及基于深度学习的目标跟踪。在相关滤波目标跟踪算法出现之前，大部分目标跟踪算法采用了粒子滤波框架来进行目标跟踪，相关滤波用于目标跟踪最早在<span
+  lang=EN-US>MOSSE</span>算法中提出，发展至今，很多基于相关滤波的改进工作在目标跟踪领域已经取得了很多可喜的成果，<span
+  lang=EN-US>KCF</span>算法也是其中的一员。基于深度学习的目标跟踪算法又分为基于判别模型的算法和基于生成模型的算法，前者的出发点是训练分类器来区分前景和背景，后者主要通过神经网络来学习模板与候选样本之间的相似程度，因其速度较慢，<span
+  lang=EN-US>GOTURN</span>算法和<span lang=EN-US>YCNN</span>算法对其进行了提速。近几年目标跟踪的新发展主要有强化学习，速度有效改进以及传统跟踪算法的网络化。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>视觉定位问题是近些年来计算机视觉领域的研究热点，同时非常具有挑战性，其在机器人视觉导航、公共场景监控、增强现实、交互虚拟现实、智能交通等诸多领域都具有十分重要的意义。目前的视觉定位方法主要分为两大类：基于特征的视觉定位和基于学习的视觉定位。前者主要有特征检测、匹配定位等过程，著名的<span
+  lang=EN-US>SIFT</span>用于特征检测，<span class=SpellE><span lang=EN-US>ePnP</span></span>算法用于匹配定位。现在对基于特征的视觉定位算法的主要应用有高效的优先匹配、移动设备的实时定位、大场景定位和整合机器学习等。
+  <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span style='font-size:12.0pt;font-family:宋体'>参考文献： <span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'>[1] </span><span style='font-size:12.0pt;font-family:宋体'>卢湖川<span
+  lang=EN-US>.</span>目标跟踪算法综述<span lang=EN-US>. </span>山东：大连理工大学<span
+  lang=EN-US>.2017.6<o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'>[2] <span class=SpellE>Henriques</span> J F, <span class=SpellE>Rui</span>
+  C, Martins P, et al. High-Speed Tracking with <span class=SpellE>Kernelized</span>
+  Correlation Filters. TPAMI, 2014, 37(3):583-596.<o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'>[3] <span class=SpellE>Henriques</span> J F, <span class=SpellE>Rui</span>
+  C, Martins P, et al. Exploiting the <span class=SpellE>Circulant</span>
+  Structure of Tracking-by-Detection with Kernels, In Proc. of the
+  ECCV,2012:702-715.<o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'>[4] J. <span class=SpellE>Redmon</span>, S. K. <span class=SpellE>Divvala</span>,
+  R. B. <span class=SpellE>Girshick</span>, A. <span class=SpellE>Farhadi</span>,
+  <span class=GramE>You</span> only look once: Unified, real- time object
+  detection, In Proc. of the CVPR, 2016:779</span><span style='font-size:12.0pt;
+  font-family:宋体'>–<span lang=EN-US>788.<o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'>[5] S. Yun, J. Choi, Y. <span class=SpellE>Yoo</span>, K. Yun, J. Y.
+  Choi, Action-decision networks for visual tracking with deep reinforcement
+  learning, In Proc. of the CVPR, 2017.<o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'>[6] David <span class=SpellE><span class=GramE>G.Lowe</span></span>.
+  Distinctive Image Features from Scale-Invariant <span class=SpellE>Keypoints.International</span>
+  Journal of Computer Vision, vol.60, no.2, pp. 91-110, 2004.<o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'>[7] <span class=SpellE><span class=GramE>V.Lepetit</span></span>, <span
+  class=SpellE>F.Moreno-Noguer</span>, and <span class=SpellE>P.Fua</span>. <span
+  class=SpellE>EPnP</span>: An Accurate O(n)Solution to the PnP <span
+  class=SpellE>Problem.International</span> Journal of Computer Vision, vol.81,
+  no.2,pp. 155-166, 2009 <o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:20.0pt;
+mso-line-height-rule:exactly'><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+
+<span lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+ZH-CN;mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体'>三、研究方案<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:625.7pt'>
+  <td width=703 valign=top style='width:421.85pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:625.7pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>（一）研究目标<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>具体研究目标如下：<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>1</span><span
+  style='font-size:12.0pt;font-family:宋体'>、采用合适的棋盘格标定板，实现对参与跟踪相机的高精度内参标定； <span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>2</span><span
+  style='font-size:12.0pt;font-family:宋体'>、基于工业相机的标准<span class=SpellE><span
+  lang=EN-US>sdk</span></span>，实现工业相机采集图片并转换到<span class=SpellE><span
+  lang=EN-US>opencv</span></span>的图片格式；<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>3</span><span
+  style='font-size:12.0pt;font-family:宋体'>、采用合适大小的<span lang=EN-US>tag</span>标记物，实现对参与跟踪相机的外<span
+  class=GramE>参进行</span>高精度标定； <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>4</span><span
+  style='font-size:12.0pt;font-family:宋体'>、实现多相机协同工作进行跟踪的工作模式，设置静态和动态两种方式；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>5</span><span
+  style='font-size:12.0pt;font-family:宋体'>、实现对机器人结果位姿的精度优化；<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>6</span><span
+  style='font-size:12.0pt;font-family:宋体'>、实现效果较好的可视化方案对运动轨迹进行展示。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>（二）研究内容<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>基于上述研究目标，本文的研究内容如下：<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>1</span><span
+  style='font-size:12.0pt;font-family:宋体'>、多相机机器人跟踪系统主要分为相机内外参标定、多相机协同运作、<span
+  lang=EN-US>tag</span>精准检测、结果位姿优化和结果可视化这几个部分。其中相机内外参标定属于前期的准备工作，多相机协同运作依赖于系统逻辑的组织，<span
+  lang=EN-US>tag</span>精准检测和结果位姿优化则是与算法息息相关，结果可视化要求结果轨迹的展示明确易懂；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>2</span><span
+  style='font-size:12.0pt;font-family:宋体'>、相机的内外参标定在这个系统中显得尤为重要，提高内参与外参的精度是整个系统提高精度的一个大前提。在这一部分先进行各个相机的内参标定，然后固定好各个相机的位置，进行外参标定，最后将这些参数保存在参数文件中；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>3</span><span
+  style='font-size:12.0pt;font-family:宋体'>、多相机协同运作部分是整个跟踪系统的主逻辑部分，这部分主要有采集图片、目标检测、位姿计算和结果保存四块，有动态和静态两种方式可以选择。通过设计合理的结构体来表示各个相机在运行时的特征，加入多线程的机制使多个相机并发地运作；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>4</span><span
+  style='font-size:12.0pt;font-family:宋体'>、<span lang=EN-US>tag</span>精准检测和结果位姿优化的主要目的是在系统内部提高整个系统的精度。精准检测<span
+  lang=EN-US>tag</span>需要对<span class=SpellE><span lang=EN-US>apriltag</span></span>的检测部分进行一些算法改进，使其在对<span
+  lang=EN-US>tag</span>较小的情况下也能有较好的检测精度。优化结果位姿一方面是去除异常数值，另一方面是结合这些基本数据通过优化算法得到更加准确的位姿；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>5</span><span
+  style='font-size:12.0pt;font-family:宋体'>、结果可视化部分为了满足明确、易懂的要求，需要寻找比较合理的可视化库，并在可视化的过程中调整好长度的比例关系，使其呈现的结果轨迹贴合现实。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>（三）拟解决的关键问题<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>根据上述研究目标与研究内容，归纳出本文拟解决的关键问题如下：<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>1</span><span
+  style='font-size:12.0pt;font-family:宋体'>、获得高精度的相机内参和相机外参：采用鱼眼镜头进行<span
+  class=GramE>图象</span>采集时，虽然拍摄范围变大，但是其畸变也是不容小看的，足够精确的相机内参除了在焦距<span
+  class=SpellE><span lang=EN-US>fx</span></span>、<span class=SpellE><span
+  lang=EN-US>fy</span></span>上体现，还要考虑畸变参数。相机外<span class=GramE>参通过</span><span
+  class=SpellE><span lang=EN-US>pnp</span></span>算法可以获得，而<span class=SpellE><span
+  lang=EN-US>pnp</span></span>算法的输入中就包含了相机内参矩阵以及相机的畸变参数，另外<span lang=EN-US>2D-3D</span>点对的精准度也要确保，所以还需要面积较大的<span
+  lang=EN-US>tag</span>作<span lang=EN-US>2D</span>点位置检测；<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>2</span><span
+  style='font-size:12.0pt;font-family:宋体'>、对<span lang=EN-US>tag</span>可以进行精准的检测：对于在图中正常尺寸的<span
+  lang=EN-US>tag</span>，要确保检测出来的<span lang=EN-US>tag</span>四角像素坐标足够准确；对于在图中尺寸过小的<span
+  lang=EN-US>tag</span>，要确保能够检测到并能够确定下<span lang=EN-US>tag</span>四角的大致位置。如何修改检测算法以达到上述效果是重点；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>3</span><span
+  style='font-size:12.0pt;font-family:宋体'>、对结果位姿的优化：在多相机协同运行的情况下，一帧中往往会有多个位姿结果，如何利用这些基础数据计算出更接近实际的位姿是研究过程中的一个难点。需要加入一些视觉后端优化的方法。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>（四）拟采取的研究方法、技术路线、实验方案及可行性研究<span
+  lang=EN-US><o:p></o:p></span></span></b></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:
+  inter-ideograph;text-indent:24.0pt;line-height:20.0pt'><span
+  style='mso-bidi-font-family:"Times New Roman";color:black'>根据列出的研究目标以及相关的研究内容，针对拟解决的关键问题，采取的研究方法、技术路线、实验方案具体如下：</span><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif;
+  color:black'><o:p></o:p></span></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:
+  inter-ideograph;text-indent:24.0pt;line-height:20.0pt;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+  0px'><span lang=EN-US style='mso-bidi-font-family:"Times New Roman";
+  color:black'>1</span><span style='mso-bidi-font-family:"Times New Roman";
+  color:black'>、对各个相机内参（包括畸变参数）的获取：采用稳定可控的张正友标定法进行相机内参的获取，为了能够通过选择图片质量来提高内参标定的精确度，舍弃<span
+  class=SpellE><span lang=EN-US>ros</span></span>中封装的实时张正友标定，采用<span
+  class=SpellE><span lang=EN-US>opencv</span></span>中封装的静态张正友标定。将得到的相机内参保存在<span
+  class=SpellE><span lang=EN-US>yaml</span></span>文件中，在主流程中加入读取<span
+  class=SpellE><span lang=EN-US>yaml</span></span>格式文件的逻辑以获得保存的相机内参。</span><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif;
+  color:black'><o:p></o:p></span></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:
+  inter-ideograph;text-indent:24.0pt;line-height:20.0pt;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+  0px'><span lang=EN-US style='mso-bidi-font-family:"Times New Roman";
+  color:black'>2</span><span style='mso-bidi-font-family:"Times New Roman";
+  color:black'>、对各个相机位姿即相机外参的计算：采用无论是速度还是精确度都比<span lang=EN-US>P3P</span>好的<span
+  class=SpellE><span lang=EN-US>ePnP</span></span>算法实现各个相机的外参计算，固定好相机位置并保证整个流程中位置不变是外参标定的大前提，<span
+  class=SpellE><span lang=EN-US>ePnP</span></span>接收相机内参和<span lang=EN-US>2D-3D</span>点对（至少四对），输出相机的外参。</span><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif;
+  color:black'><o:p></o:p></span></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:
+  inter-ideograph;text-indent:24.0pt;line-height:20.0pt;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+  0px'><span lang=EN-US style='mso-bidi-font-family:"Times New Roman";
+  color:black'>3</span><span style='mso-bidi-font-family:"Times New Roman";
+  color:black'>、合适标记物的选择和使用：采用比较成熟的<span class=SpellE><span lang=EN-US>apriltag</span></span>作为跟踪标记物，移动机器人的形态不一，特征也是各不相同，使用<span
+  class=SpellE><span lang=EN-US>apriltag</span></span>粘贴在机器人表面，可以达到将移动机器人多样的特征统一成<span
+  class=SpellE><span lang=EN-US>apriltag</span></span>的特征，不仅降低了跟踪定位的难度，还提高了跟踪定位的稳定性。<span
+  class=SpellE><span lang=EN-US>Apriltag</span></span>有一套自主设计的<span lang=EN-US>API</span>，适用于不同家族<span
+  class=GramE>簇</span><span class=SpellE><span lang=EN-US>apriltag</span></span>的检测和结果获取。</span><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif;
+  color:black'><o:p></o:p></span></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:
+  inter-ideograph;text-indent:24.0pt;line-height:20.0pt;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+  0px'><span lang=EN-US style='mso-bidi-font-family:"Times New Roman";
+  color:black'>4</span><span style='mso-bidi-font-family:"Times New Roman";
+  color:black'>、稳定跟踪方法的选择：基于视觉定位先跟踪后定位的原则，采用<span class=SpellE><span
+  lang=EN-US>kcf</span></span>算法作为一个稳定快速的跟踪方法，<span class=SpellE><span
+  lang=EN-US>kcf</span></span>基于相关滤波，根据当前帧的信息<span class=GramE>和之前帧</span>的信息训练出一个相关滤波器，然后与新输入的<span
+  class=GramE>帧进行</span>相关性计算，得到<span class=GramE>置信图</span>作为预测的跟踪结果，得分最高的那个点（或者块）就是最可能的跟踪结果。<span
+  class=SpellE><span lang=EN-US>Kcf</span></span>接收图像中一个矩形的区域作为基本信息，在每一帧输出当前跟踪的矩形区域。</span><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif;
+  color:black'><o:p></o:p></span></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:
+  inter-ideograph;text-indent:24.0pt;line-height:20.0pt;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+  0px'><span lang=EN-US style='mso-bidi-font-family:"Times New Roman";
+  color:black'>5</span><span style='mso-bidi-font-family:"Times New Roman";
+  color:black'>、合理的机器人位姿计算方法：设定好世界坐标系并基于这个世界坐标<span class=GramE>系计算</span>好各个相机的外参是计算机器人位姿的大前提，通过机器人表面粘贴的<span
+  class=SpellE><span lang=EN-US>apriltag</span></span>设定一个物体坐标系，测量得到<span
+  lang=EN-US>3D</span>点信息，通过相机中<span class=GramE>图象</span>对<span lang=EN-US>tag</span>的检测得到<span
+  lang=EN-US>2D</span>点信息，使用<span class=SpellE><span lang=EN-US>ePnP</span></span>算法得到相机在物体坐标系下的位姿，而物体坐标系可以通过相机坐标系与世界坐标<span
+  class=GramE>系相互</span>转换，最终得到机器人在世界坐标系下的实际坐标，实现定位。</span><span lang=EN-US
+  style='font-size:10.5pt;font-family:"Times New Roman",serif;color:black'><o:p></o:p></span></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:
+  inter-ideograph;text-indent:24.0pt;line-height:20.0pt;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+  0px'><span lang=EN-US style='mso-bidi-font-family:"Times New Roman";
+  color:black'>6</span><span style='mso-bidi-font-family:"Times New Roman";
+  color:black'>、多相机协作的合理实现：采用<span lang=EN-US>boost</span>库的线程<span
+  class=GramE>池实现</span>多个相机的协作，设定线程池中<span class=GramE>线程数</span>与参与跟踪相机数相同，舍弃了通过循环运行各个相机的任务，设置每一个相机在初始化、运行时的任务后加入线程池的任务队列，实现多线程地完成任务。在这个环节中需要注意各个线程之间的互斥锁和条件变量，在后期的代码<span
+  lang=EN-US>review</span>和<span lang=EN-US>debug</span>中要特别留意。</span><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif;
+  color:black'><o:p></o:p></span></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;text-align:justify;text-justify:
+  inter-ideograph;text-indent:24.0pt;line-height:20.0pt;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+  0px'><span lang=EN-US style='mso-bidi-font-family:"Times New Roman";
+  color:black'>7</span><span style='mso-bidi-font-family:"Times New Roman";
+  color:black'>、优化<span class=SpellE><span lang=EN-US>apriltag</span></span>的检测算法，实现自适应精度的检测，需要阅读<span
+  class=SpellE><span lang=EN-US>apriltag</span></span>的论文以及实现源码，掌握其检测的根本原理，和导师多沟通、交流，确定下优化的方法后去实现验证。</span><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif;
+  color:black'><o:p></o:p></span></p>
+  <p style='margin:0cm;margin-bottom:.0001pt;font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial;word-spacing:
+  0px'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+   o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+   stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="图片_x0020_1" o:spid="_x0000_s1026" type="#_x0000_t75"
+   style='position:absolute;margin-left:11.2pt;margin-top:35.75pt;width:381.9pt;
+   height:194.6pt;z-index:251658240;visibility:visible;mso-wrap-style:square;
+   mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;
+   mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+   mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
+   mso-position-horizontal-relative:text;mso-position-vertical:absolute;
+   mso-position-vertical-relative:text;mso-width-percent:0;
+   mso-height-percent:0;mso-width-relative:page;mso-height-relative:page'>
+   <v:imagedata src="孙煊溢-开题报告true.files/image001.png" o:title=""/>
+   <w:wrap type="square"/>
+  </v:shape><![endif]--><![if !vml]><img width=636 height=324
+  src="孙煊溢-开题报告true.files/image003.gif" align=left hspace=12 v:shapes="图片_x0020_1"><![endif]><span
+  style='mso-bidi-font-family:"Times New Roman";color:black'>由于跟踪定位算法在前人的多次试验和改进下已经趋于成熟和稳定，检测算法在正常环境下也可以达到高鲁棒性，在可行性方面不存在问题。</span><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif;
+  color:black'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>（五）研究计划及预期取得的研究成果<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>根据目前进展以及相关计划，<span class=GramE>设定毕设学位</span>论文计划进展如下：<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>1</span><span style='font-size:12.0pt;font-family:宋体'>、调研准备阶段：<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>2019.3-2019.5 </span><span style='font-size:12.0pt;
+  font-family:宋体'>完成这个课题的调研计划，确定下课题中使用的具体方法和可以创新的部分，分析其可行性，熟练对<span lang=EN-US>C++</span>的掌握，学习相关的算法基础知识；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>2</span><span style='font-size:12.0pt;font-family:宋体'>、文档编写阶段：<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>2019.5-2019.6 </span><span style='font-size:12.0pt;
+  font-family:宋体'>结合搜集到的资料以及调研的方法，完成该课题初期文档的编写，梳理<span class=GramE>整个实现</span>思路，总结其中可能遇到的难点；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>3</span><span style='font-size:12.0pt;font-family:宋体'>、初期编码阶段：<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>2019.6-2019.7 </span><span style='font-size:12.0pt;
+  font-family:宋体'>实现单个相机的机器人定位功能，进行环境多样化的测试，同时进行短期的<span lang=EN-US>debug</span>，将单个相机的逻辑整理完整后，完善文档，为下一步做准备；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>4</span><span style='font-size:12.0pt;font-family:宋体'>、后期编码阶段：<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>2019.7-2019.9 </span><span style='font-size:12.0pt;
+  font-family:宋体'>实现多个相机协作的机器人定位功能，进行环境多样化的测试，进行短期的<span lang=EN-US>debug</span>，将多个相机协作的逻辑整理完善后，完善文档；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>5</span><span style='font-size:12.0pt;font-family:宋体'>、算法优化阶段：<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>2019.9-2019.12 </span><span style='font-size:12.0pt;
+  font-family:宋体'>实现整个系统算法部分的优化，以提高精度为目的，作为主要创新点记录；<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>6</span><span style='font-size:12.0pt;font-family:宋体'>、系统测试阶段：<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:20.0pt;mso-line-height-rule:
+  exactly;layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'>2019.12-2020.3 </span><span style='font-size:12.0pt;
+  font-family:宋体'>完成整个系统的测试，包括逻辑测试、精度测试、性能测试，完成毕业设计论文的编写。<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<span lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:
+"Times New Roman";mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:
+ZH-CN;mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体'>四、研究基础<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:645.5pt'>
+  <td width=715 valign=top style='width:429.0pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:645.5pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:12.0pt;font-family:宋体'>（一）已具备的实验条件和研究工作积累<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>已具备的实验条件：<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>1</span><span
+  style='font-size:12.0pt;font-family:宋体'>、两个全局快门的工业相机，接口分别是<span lang=EN-US>usb2.0</span>和<span
+  lang=EN-US>usb3.0</span>，配置了鱼眼镜头，可以正常采集图片； <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>2</span><span
+  style='font-size:12.0pt;font-family:宋体'>、两个三脚架，一个最高高度<span lang=EN-US>157cm</span>，一个最高高度<span
+  lang=EN-US>154cm</span>，用作固定工业相机； <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>3</span><span
+  style='font-size:12.0pt;font-family:宋体'>、若干<span class=SpellE><span
+  lang=EN-US>apriltag</span></span>样本以及一个可编程驱动的机器人，用作跟踪测试； <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>4</span><span
+  style='font-size:12.0pt;font-family:宋体'>、一块相机标定板，用作内参标定。 <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>研究工作积累如下： <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>1</span><span
+  style='font-size:12.0pt;font-family:宋体'>、由于先前参加过大型的<span lang=EN-US>C</span>项目开发，在<span
+  lang=EN-US>C/C++</span>代码编写方面比较熟练，另外了解过一些<span lang=EN-US>STL</span>的相关知识，在本文研究中可以加以运用以加快研究效率；
+  <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>2</span><span
+  style='font-size:12.0pt;font-family:宋体'>、对坐标系转换的相关知识有一定的了解，能够通过推导公式得到想要的转换关系；
+  <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>3</span><span
+  style='font-size:12.0pt;font-family:宋体'>、了解过计算机视觉中各种求解位姿的方法，可以根据实际的研究环境和要求选择合适的位姿求解方法，这里指<span
+  lang=EN-US>2D-3D</span>的<span class=SpellE><span lang=EN-US>epnp</span></span>方法；
+  <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>4</span><span
+  style='font-size:12.0pt;font-family:宋体'>、先前研究过计算机视觉的相关论文，积累了一些视觉相关的基础知识，且在论文解读方面得到了锻炼，在研究检测算法优化时可以用得上。
+  <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>5</span><span
+  style='font-size:12.0pt;font-family:宋体'>、导师在计算机视觉方面可以对算法改进提出意见，在实现代码架构方面也能提供很大的帮助，此外还有<span
+  class=GramE>有</span>工作经验的协助者提供计算机视觉方面的宝贵建议。 <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+  宋体'>（二）已取得的科研成果<span lang=EN-US><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span></span><span
+  style='font-size:12.0pt;font-family:宋体'>到目前为止，已取得如下科研成果：<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>1</span><span
+  style='font-size:12.0pt;font-family:宋体'>、调研阶段基本完成，选定<span class=SpellE><span
+  lang=EN-US>kcf</span></span>作跟踪算法，<span class=SpellE><span lang=EN-US>apriltag</span></span>作目标检测，<span
+  class=SpellE><span lang=EN-US>epnp</span></span>作位姿估计，<span class=SpellE><span
+  lang=EN-US>viz</span></span>作可视化库，创新点主要在于对<span lang=EN-US>tag</span>检测的优化以及结果位姿的精度优化；
+  <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>2</span><span
+  style='font-size:12.0pt;font-family:宋体'>、文档编写框架基本成型，主要实现逻辑已经完成，接下来的工作是进行编码和算法优化。
+  <span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  layout-grid-mode:char'><span lang=EN-US style='font-size:12.0pt;font-family:
+  宋体'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体'>五、指导教师意见<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:3.5pt'>
+  <td width="100%" valign=top style='width:100.0%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:3.5pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-pagination:widow-orphan;layout-grid-mode:char'><span style='font-size:
+  12.0pt;font-family:宋体;mso-font-kerning:0pt'>（重点对硕士生的开题情况以及是否同意开题予以说明。）<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='text-indent:264.0pt;mso-char-indent-count:22.0;
+  line-height:20.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+  font-family:宋体'>指导教师签名：<u><span lang=EN-US><o:p></o:p></span></u></span></p>
+  <p class=MsoNormal align=center style='text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-size:12.0pt;font-family:宋体'>年<span
+  lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>月<span
+  lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>日<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly'><b style='mso-bidi-font-weight:normal'><span
+  lang=EN-US style='font-size:12.0pt;font-family:宋体'><span
+  style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体'>六、开题报告记录</span></b><span lang=EN-US style='font-size:12.0pt;font-family:
+宋体'><o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:580.4pt'>
+  <td width="100%" valign=top style='width:100.0%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:580.4pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+  style='font-size:12.0pt;font-family:宋体'>（着重记录专家对选题报告提出的问题及修改意见和建议。）<b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US><o:p></o:p></span></b></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+  style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:宋体'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体'>七、开题报告评语及结论<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 align=left
+ width=694 style='width:416.5pt;border-collapse:collapse;border:none;
+ mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:1184;mso-table-lspace:
+ 9.0pt;margin-left:7.2pt;mso-table-rspace:9.0pt;margin-right:7.2pt;mso-table-anchor-vertical:
+ paragraph;mso-table-anchor-horizontal:margin;mso-table-left:left;mso-table-top:
+ 5.2pt;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:.5pt solid windowtext;
+ mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:28.9pt'>
+  <td width=147 style='width:88.4pt;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:28.9pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-3.35pt;
+  margin-bottom:0cm;margin-left:-3.45pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.32gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.33gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>一级指标<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+  <td width=351 style='width:210.55pt;border:solid windowtext 1.0pt;border-left:
+  none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:28.9pt'>
+  <p class=MsoNormal align=center style='margin-right:-4.3pt;mso-para-margin-right:
+  -.41gd;text-align:center;line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>二级指标<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+  <td width=196 style='width:117.55pt;border:solid windowtext 1.0pt;border-left:
+  none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:28.9pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>评价意见<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:58.8pt'>
+  <td width=147 style='width:88.4pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:58.8pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-3.35pt;
+  margin-bottom:0cm;margin-left:-3.45pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.32gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.33gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>论文选题<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+  <td width=351 style='width:210.55pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:58.8pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span lang=EN-US
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体'>1.</span><span
+  style='font-size:12.0pt;font-family:宋体'>选题接触学科前沿，对国民经济、科技发展具有一定的理论意义和实用价值；</span><span
+  lang=EN-US style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span lang=EN-US
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体'>2.</span><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;mso-bidi-font-family:
+  宋体;mso-font-kerning:0pt'>国内外研究现状</span><span style='font-size:12.0pt;
+  mso-bidi-font-size:10.0pt;font-family:宋体'>综合全面反映该学科或相关领域的最新研究成果，归纳总结正确。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+  <td width=196 style='width:117.55pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:58.8pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□优秀<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□良好<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□合格<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:-4.85pt;mso-para-margin-right:-.46gd;
+  text-indent:36.0pt;mso-char-indent-count:3.0;line-height:20.0pt;mso-line-height-rule:
+  exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□不合格<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;page-break-inside:avoid;height:57.4pt'>
+  <td width=147 style='width:88.4pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:57.4pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-3.35pt;
+  margin-bottom:0cm;margin-left:-3.45pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.32gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.33gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>研究方案<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+  <td width=351 style='width:210.55pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:57.4pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span lang=EN-US
+  style='font-size:12.0pt;font-family:宋体'>1.</span><span style='font-size:12.0pt;
+  font-family:宋体'>研究目标明确；<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span lang=EN-US
+  style='font-size:12.0pt;font-family:宋体'>2.</span><span style='font-size:12.0pt;
+  font-family:宋体'>整体设想及构架科学合理；<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span lang=EN-US
+  style='font-size:12.0pt;font-family:宋体'>3.</span><span style='font-size:12.0pt;
+  font-family:宋体'>研究内容有独到之处，提出了新命题、新方法；较好地解决了自然科学或工程技术中的某一具体问题；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span lang=EN-US
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体'>4.</span><span
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体'>研究或设计方法科学合理，关键技术有难度；<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span lang=EN-US
+  style='font-size:12.0pt;font-family:宋体'>5.</span><span style='font-size:12.0pt;
+  font-family:宋体'>预期取得的研究成果</span><span style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt;font-family:宋体'>有一定的应用价值，可产生一定的社会效益和经济效益</span><span style='font-size:
+  12.0pt;font-family:宋体'>。<span lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+  <td width=196 style='width:117.55pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:57.4pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□优秀<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□良好<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□合格<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:-4.85pt;mso-para-margin-right:-.46gd;
+  text-indent:36.0pt;mso-char-indent-count:3.0;line-height:20.0pt;mso-line-height-rule:
+  exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□不合格<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;page-break-inside:avoid;height:64.3pt'>
+  <td width=147 style='width:88.4pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:64.3pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-3.35pt;
+  margin-bottom:0cm;margin-left:-3.45pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.32gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.33gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>研究基础<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+  <td width=351 style='width:210.55pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:64.3pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:12.0pt;
+  mso-bidi-font-size:10.0pt;font-family:宋体'>具备了较好的实验条件和较为深厚的研究工作积累。<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+  <td width=196 style='width:117.55pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:64.3pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□优秀<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□良好<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□合格<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:-4.85pt;mso-para-margin-right:-.46gd;
+  text-indent:36.0pt;mso-char-indent-count:3.0;line-height:20.0pt;mso-line-height-rule:
+  exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□不合格<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;height:48.05pt'>
+  <td width=147 style='width:88.4pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:48.05pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-3.35pt;
+  margin-bottom:0cm;margin-left:-3.45pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.32gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.33gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>进度安排<span lang=EN-US><o:p></o:p></span></span></b></p>
+  </td>
+  <td width=351 style='width:210.55pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:48.05pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:12.0pt;
+  mso-bidi-font-size:10.0pt;font-family:宋体'>时间安排充裕、合理。<span lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+  <td width=196 style='width:117.55pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:48.05pt'>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□优秀<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□良好<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal align=center style='margin-top:0cm;margin-right:-4.85pt;
+  margin-bottom:0cm;margin-left:-4.6pt;margin-bottom:.0001pt;mso-para-margin-top:
+  0cm;mso-para-margin-right:-.46gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+  -.44gd;mso-para-margin-bottom:.0001pt;text-align:center;line-height:20.0pt;
+  mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□合格<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-right:-4.85pt;mso-para-margin-right:-.46gd;
+  text-indent:36.0pt;mso-char-indent-count:3.0;line-height:20.0pt;mso-line-height-rule:
+  exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体;color:black'>□不合格<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes;height:149.55pt'>
+  <td width=694 colspan=3 valign=top style='width:416.5pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:149.55pt'>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><b style='mso-bidi-font-weight:
+  normal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>开题报告评语及结论</span></b><span lang=EN-US style='font-size:12.0pt;mso-bidi-font-size:
+  10.0pt;font-family:宋体'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+  mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:around;
+  mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:margin;
+  mso-element-top:5.2pt;mso-height-rule:exactly'><span lang=EN-US
+  style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体'><span
+  style='mso-spacerun:yes'>&nbsp;</span></span><span style='font-size:12.0pt;
+  mso-bidi-font-size:10.0pt;font-family:宋体;mso-font-kerning:0pt'>（开题报告结论分为两种：<span
+  lang=EN-US>1.</span>通过，按专家意见修改后进行学位论文撰写工作；<span lang=EN-US>2.</span>不通过，重新开题。）</span><span
+  lang=EN-US style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-top:7.1pt;mso-para-margin-top:.5gd;
+  text-indent:252.0pt;mso-char-indent-count:21.0;line-height:20.0pt;mso-line-height-rule:
+  exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体'>组长签名：<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='margin-top:7.1pt;mso-para-margin-top:.5gd;
+  text-indent:252.0pt;mso-char-indent-count:21.0;line-height:20.0pt;mso-line-height-rule:
+  exactly;mso-element:frame;mso-element-frame-hspace:9.0pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  margin;mso-element-top:5.2pt;mso-height-rule:exactly'><span style='font-size:
+  12.0pt;mso-bidi-font-size:10.0pt;font-family:宋体'>成员签名：<span lang=EN-US><o:p></o:p></span></span></p>
+  <p class=MsoNormal style='text-indent:246.0pt;mso-char-indent-count:20.5;
+  line-height:20.0pt;mso-line-height-rule:exactly;mso-element:frame;mso-element-frame-hspace:
+  9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;
+  mso-element-anchor-horizontal:margin;mso-element-top:5.2pt;mso-height-rule:
+  exactly'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:
+  宋体'>年<span lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>月<span
+  lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>日<span
+  lang=EN-US><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:2.0;
+line-height:20.0pt;mso-line-height-rule:exactly'><b style='mso-bidi-font-weight:
+normal'><span style='mso-bidi-font-size:10.5pt;font-family:宋体'>注：</span></b><span
+style='mso-bidi-font-size:10.5pt;font-family:宋体'>填写评价意见时，请在相应评价意见前的“<span
+style='color:black'>□”中打</span>“√”。<span lang=EN-US><o:p></o:p></span></span></p>
+
+</div>
+
+</body>
+
+</html>
