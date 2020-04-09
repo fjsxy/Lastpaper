@@ -1,42 +1,106 @@
 
 \chapter{实验测试与分析评估}
-53-64，共11页。
-\section{实验平台构建}
-头部0.5
-\subsection{评价指标}
-0.5
-\subsection{实验软硬件平台}
-0.5
+    本章设计了四组对照实验，从性能与精度上对定位系统进行测试与评估...
+\section{实验测试平台与测试环境说明}
+    本节对测试平台、辅助测试工具、实际测试环境以及实验测试评估指标进行说明。
+\subsection{PC端测试平台}
+    ~PC~端测试平台承担了所有系统测试与算法测试的运行，其使用~Ubuntu 16.04.4~系统，内核版本为~XXX~，采用~ROS~的~kinetic~版本辅助数据转发，此外借助~rviz~软件作结果可视化。\par
+    定位系统涉及大量的图像处理算法，对测试平台的处理能力有一定的要求。PC~端测试平台的~CPU~为英特尔酷睿~I5-8250~四核心八线程处理器，主频为~1.6GHz~，内存为~8G~。
+\subsection{辅助测试工具说明}
+    实验测试依托~PC~端测试平台，但仍需要其他硬件工具辅助测试。这些辅助测试工具主要有工业相机、三脚架、扫地机器人、标定板和不同尺寸的标签实体，接下来将分别对它们进行说明。\par
+    工业相机的选型是海康威视的~MV-CA050-11UM~，如图\ref{img5_1a}所示，是~500~万像素的~CMOS~面阵工业相机，芯片尺寸为~2/3~寸，相机采用~USB 3.0~传输图像数据，其采集到的图像是黑白的，分辨率为~2448*2048~。该工业相机具有全局快门、支持硬触发、软触发及自由运行模式的特点。工业相机镜头的选型是海康威视的~MVL-MF0824M-5MP~，如图\ref{img5_1b}所示，该镜头是~500~万像素的定焦镜头，焦距为~8~毫米，大小为~2/3~寸。\par
+    \begin{figure}[htb]
+        \centering
+        \begin{minipage}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.6\textwidth]{5-1a.png}
+            \caption{海康威视工业相机}
+            \label{img5_1a}
+        \end{minipage}
+        \begin{minipage}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.6\textwidth]{5-1b.png}
+            \caption{海康威视相机镜头}
+            \label{img5_1b}
+        \end{minipage}
+    \end{figure}
+    三脚架为云腾~VT-6008~，如图\ref{img5_2}所示，实验中使用~157cm~的最高高度，其配置目的是固定工业相机，并在实验测试中运用云台改变工业相机的拍摄角度。\par
+    扫地机器人为米家的二代扫地机器人，如图\ref{img5_3}所示，扫地机器人内置~Ubuntu 14.04.3~操作系统，内核为~3.4.39 armv71~，同时它内置~wifi~模块，实验测试中通过该模块给机器人相应的移动指令。由于扫地机器人不作为运算平台，对扫地机器人内部的运算硬件不作过多的说明。\par
+    \begin{figure}[htb]
+        \centering
+        \begin{minipage}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.8\textwidth]{5-2.jpg}
+            \caption{测试用三脚架}
+            \label{img5_2}
+        \end{minipage}
+        \begin{minipage}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.8\textwidth]{5-3.PNG}
+            \caption{米家二代扫地机器人}
+            \label{img5_3}
+        \end{minipage}
+    \end{figure}
+    标定板为自制~9*6~的棋盘格~pvc~板，真实大小为~A2~，如图\ref{img5_4}所示。该标定板相比纸质标定板在测试中具有更加平整的表面，有利于标定精度的提升。标签实体有不同的尺寸，如图\ref{img5_5}所示，大尺寸实体用于设定世界坐标系，小尺寸实体依附于机器人表面，用于定位。\par
+    \begin{figure}[htb]
+        \centering
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.9\textwidth]{5-4.jpeg}
+            \caption{棋盘格标定板}
+            \label{img5_4}
+        \end{minipage}
+        \begin{minipage}{0.48\textwidth}
+            \centering
+            \includegraphics[width=0.9\textwidth]{5-5.png}
+            \caption{标签实体}
+            \label{img5_5}
+        \end{minipage}
+    \end{figure}
+\subsection{实际测试环境搭建}
+    定位系统实际测试场景如图\ref{img5_6}所示。\par
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.7\textwidth]{de.png}
+        \caption{实验室大厅场景}
+        \label{img5_6}
+    \end{figure}
+    由于工业相机搭建高度的限制，实验室大厅的测试范围约为~2m*3m~，该场景白天光线充足，特征信息丰富，与标签特征的区分度较大，适合定位系统的精度测试，晚上光线较暗，环境特征与标签特征的区分度变小，适合定位系统的稳定性测试。在两种不同条件的光照下测试能够模拟出室内光照不断改变的场景，对定位系统的应用具有很好的验证性。
+\subsection{实验测试评估指标}
+    为验证定位系统的定位精度，本文将实际场景测量的位置信息作为真实值，将定位系统估计得到的机器人位置信息作为预测值，采用均方根误差（Root Mean Squared Error，RMSE）作为定位精度的评估，评估公式\ref{RMSE}如下：
+    \begin{equation}
+        e=\sqrt{\frac{1}{m}\sum_{i=1}^m(y_i-\hat{y}_i)^2}
+        \label{RMSE}
+    \end{equation}
+    式中~$e$~表示最终估计的均方根误差，~$m$~表示参与精度评估的数据组数，~$y_i$~表示真实值而~$\hat{y}_i$~表示预测值。\cite{}中提到~RMSE~可以用来衡量预测值同真实值之间的偏差，值越大表示误差越大，估计的位置与实际位置的偏差也越大。\par
+    对于定位系统实时性与稳定性两大性能的评估，本文采取对~apriltag~检测所需时间的统计以及对遮挡后恢复所需时间的统计对性能进行评估。
 
-\section{实验设计}
-头部0.5。
-\subsection{实验设计思路}
-描述实验内容：
+\section{基于多相机的定位系统功能测试与分析}
+    % 本节对第四章提到的性能优化方法进行测试验证，分别设计系统实时性测试实验和系统鲁棒性测试实验，并对测试结果进行分析。
+\subsection{}
+    % 系统实时性的优化基于图像处理过程中的~apriltag~检测部分展开，在整个定位流程中，~apriltag~检测花费了大量的时间。因此，测试以单相机参与的定位系统作为测试原型，将扫地机器人的移动模式设置为在相机视野中深度变化较小的直线移动，通过比对优化前后对~apriltag~检测所需时间的大小，验证系统实时性的优化效果。\par
+    % 为保证测试前后的一致性，采取工业相机录制视频生成图像序列的方法，将图像序列作为测试集，性能优化前后的定位系统基于该测试集统计~apriltag~的检测时间。单帧的~apriltag~检测时间可能存在异常值，所以本文采用对连续~5~帧图像中~apriltag~检测时间的平均值作为最终的测试结果。表\ref{TimeTest}中记录了定位系统在优化前后对~5~帧图像每一帧的~apriltag~检测时间以及它们的平均值，从表中数据可以看出...
+    % \begin{table}[htb]
+    %     \centering
+    %     \setlength{\abovecaptionskip}{0pt}   
+    %     \setlength{\belowcaptionskip}{10pt}
+    %     \caption{系统实时性测试定量分析}
+    %     \resizebox{\textwidth}{12mm}{
+    %     \begin{tabular}{m{0.2\columnwidth}<{\centering}m{0.1\columnwidth}<{\centering}m{0.1\columnwidth}<{\centering}m{0.1\columnwidth}<{\centering}m{0.1\columnwidth}<{\centering}m{0.1\columnwidth}<{\centering}m{0.1\columnwidth}<{\centering}}
+    %         \toprule[2pt]
+    %          & 1 & 2 & 3 & 4 & 5 & 平均值 \\
+    %         \midrule[1pt]
+    %         优化前 & ? & ? & ? & ? & ? & ? \\
+    %         \midrule[1pt]
+    %         优化后 & ? & ? & ? & ? & ? & ? \\
+    %         \bottomrule[2pt]
+    %    \end{tabular}}
+    %    \label{TimeTest}
+    % \end{table}
+\subsection{}
 
-分三个大块：语义分割、视差估计、2.5D分割。
-
-前两个任务包含对其他方法的评估以及本文改进的评估。
-
-第三个任务需要设计loss函数进行实验。
-1页。
-
-\subsection{语义分割分支性能}
-1.5页
-语义分割的结果、简单分析、输出图像。
-\subsection{视差估计分支性能}
-1.5页
-视差估计的结果、简单分析、输出图像。
-\subsection{2.5D分割总体性能}
-1.5页
-2.5D的结果、简单分析、输出图像。
-
-\section{实验结果分析}
-\subsection{与其他方法的对比与分析}
-1，着重强调有代表性的输出，结合各个网络的结构特点与结果进行对应。
-\subsection{单任务的最优网络配置与分析}
-1，着重强调有代表性的输出，结合各个网络的结构特点与结果进行对应。
-\subsection{兼顾多任务的网络配置与分析}
-1，着重强调有代表性的输出，分析不同网络配置的结果的原因。
-
+\section{}
+\subsection{}
+\subsection{}
 
 \section{本章小结}

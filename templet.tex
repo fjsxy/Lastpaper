@@ -6,8 +6,33 @@
 \usepackage{amsmath}
 \usepackage{diagbox}
 \usepackage{slashbox}
+\usepackage{booktabs}
+\usepackage{bm}
+\usepackage{algorithm}  
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{subfigure}
 
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}  
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+%%%%%%%%%%%%%%%%%
+% 设置文中图片的路径
+%%%%%%%%%%%%%%%%%
 \graphicspath{{figures/}}
+
+%%%%%%%%%%%%%%%%%
+% 引用上标，连续引用格式修改
+%%%%%%%%%%%%%%%%%
+\newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}
+\usepackage[numbers,sort&compress]{natbib}
+
+%%%%%%%%%%%%%%%%%
+% 解决了插图索引目录的章之间的间隔问题
+%%%%%%%%%%%%%%%%%
+\newcommand*{\noaddvspace}{\renewcommand*{\addvspace}[1]{}}
+\addtocontents{lof}{\protect\noaddvspace}
+\addtocontents{lot}{\protect\noaddvspace}
 
 \begin{document}
 \XDUfrontmatter

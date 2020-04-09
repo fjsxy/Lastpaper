@@ -1,40 +1,445 @@
 
-\chapter{同步语义分割和视差估计网络}
-共43-53页，共10页。
-头部0.5，说明2.5D分割的总体架构。
-%-------------------------------------------------------------------------------3
-\section{基于孪生神经网络的设计思路}
-头部1，说明总体设计思路，为何是孪生网络这种形式。2.5D的分割主要指对于左图进行视差、深度估计，用右图为左图提供额外的视差训练需要的信息。
-\subsection{CNN特征在不同任务下的应用}
-1页，主要指出有哪些特征提取方式，本工作中特征提取是什么技术(resnet)，用到的思路，这种技术的好处(指标不低，占用小，为多任务训练留出可能)。
-
-\subsection{端到端的多任务神经网络设计思路}
-主要指出一个整体的端到端的网络流程，画出网络简要的功能模块图，指出各个模块间的关系。1页。
-
-%-------------------------------------------------------------------------------5
-\section{网络结构}
-承接上文，指出网络的详细结构，同时画一个大的详细的网络结构图，指出各模块间数据的流向以及反向传播梯度传播方向、训练到的参数有哪些。1页。
-\subsection{特征提取网络}
-讲述详细的特征提取网络，有哪些层，重要的层进行特别说明(主要是skip connection)，指出为什么这么设计(skip connect 提供多尺度、多抽象层级的特征)。1页。
-提出本文改进点：
-\subsection{语义分割分支}
-语义分割的详细结构图、描述。0.5页。
-\subsection{特征代价卷的构建}
-详述代价卷的设计，画图。0.5页。
-\subsection{堆叠的沙漏3D卷积视差估计分支}
-3DCNN、单个沙漏3DCNN、堆叠的沙漏3DCNN图。特征来源、回归、描述。1页。
-
-\subsection{自相关层的提出与设计}
-1页。
-这里视实验情况，确定是否加入自相关层，要做实验。
-目前规划：在当前最好的结果上继续加上自相关loss进行训练，如果指标再能提高一些就可以写进论文里了。
-
-%-------------------------------------------------------------------------------2
-\section{损失函数设计}
-加本质小结2页。
-\subsection{语义分割分支的损失函数设计}
-\subsection{视差估计分支的损失函数设计}
-\subsection{多任务下的损失函数的设计}
-这里还需要查阅文献思考策略。          
-
+\chapter{基于多相机的机器人定位优化方法设计}
+    本章在移动机器人跟踪定位系统的基础上，分析单相机定位在一些特殊场景下的局限性，从这些局限性出发，设计基于多相机的定位优化方法，说明该方法中的场景设置方案、坐标系统一方法、多相机协同运作机制、位姿估计结果融合过程。同时以多相机定位场景为基础，设计基于图优化的定位精度优化策略。
+\section{基于单相机的机器人定位局限性分析}
+    室内环境虽然具有较多的视觉特征信息，但是容易受到人为干预而改变了室内布局，这对固定位置进行定位的相机产生了巨大的负面影响。移动机器人在室内完成指定工作时有着较为复杂的移动模式，它在图像中的变化使得定位系统难以把握定位的精度。无论是定位环境还是定位目标，都对基于单相机的机器人定位造成了一定的局限性。\par
+    遮挡问题是视觉定位技术研究方向上的一大挑战。虽然在上一章提到使用四月码统一机器人的特征，代替机器人在环境中被定位，但是当四月码被异物遮挡时，图像中原本存在的四月码特征将被异物所取代。在基于单相机的定位中，跟踪器在遮挡发生的图像帧中所采集的测试样本并不包含上一帧目标区域中的相关特征，这使得分类器将这些测试样本全部归类为负样本，丢失了对目标区域的跟踪，而检测器本身基于跟踪器所提供的目标区域进行角点检测，目标区域丢失，即使是基于图像全域的四月码检测也因为异物的遮挡无法得到四边形区域。图\ref{img4_1}和图\ref{img4_2}展示了两种遮挡问题发生的情况。
+    \begin{figure}[htb]
+        \centering
+        \begin{minipage}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=1.0\textwidth]{de.png}
+            \caption{异物接近四月码的遮挡情况}
+            \label{img4_1}
+        \end{minipage}
+        \begin{minipage}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=1.0\textwidth]{de.png}
+            \caption{异物接近相机镜头的遮挡情况}
+            \label{img4_2}
+        \end{minipage}
+    \end{figure}
+    图\ref{img4_1}中虽然异物在图像中所占像素不多，但是却遮挡了包含四月码在内的关键特征，即使在其他位置进行拍摄，也无法获取四月码外围角点的位置信息。图\ref{img4_2}中虽然异物占据了图像中的大部分像素，但是异物相对四月码的物理距离较远，通过其他位置的拍摄能够捕捉到完整的四月码。室内环境中人为干预所产生的遮挡通常属于图\ref{img4_2}中的情况，基于固定位置的单相机机器人定位显然无法解决这种遮挡问题。\par
+    机器人在相机视野中的深度是估计机器人位姿的重要参数，公式\ref{wTop}中，在已知深度~$Z_c$~的情况下可由像素点坐标推算该像素点坐标对应的~3D~点坐标，实现点的定位。因此，深度信息的准确计算对于机器人定位具有重要意义。在单目视觉~SLAM~中，仅凭单张图像无法获得图中像素点的深度信息，对~3D~点的深度计算需要通过三角测量进行，相机通过平移与旋转形成对同一个点的两个观察角度，假设~3D~点在位置~1~相机中的深度为~$s_1$~，在位置~2~相机中的深度为~$s_2$~，则有：
+    \begin{equation}
+        s_1P_1=s_2RP_2+t
+        \label{trianglation}
+    \end{equation}
+    式中的~$P_1$~与~$P_2$~表示两个特征点的归一化坐标，~$R$~与~$t$~象征两个位置之间的平移旋转变换。~$s_1$~与~$s_2$~是求解的目标，通过消元分别求解这两个深度，如公式\ref{trianglation2}所示。
+    \begin{equation}
+        \begin{aligned}
+            s_1P_1^{\wedge}P_1 &= s_2P_1^{\wedge}RP_2+P_1^{\wedge}t \\
+            0 &= s_2P_1^{\wedge}RP_2+P_1^{\wedge}t
+        \end{aligned}
+        \label{trianglation2}
+    \end{equation}
+    式中利用向量叉乘的反对称矩阵消去~$s_1$~，先进行~$s_2$~的求解，之后再对~$s_1$~求解。移动机器人定位系统使用单目工业相机，并固定相机的位置，当参与定位的相机仅有一个时，无法产生第二个视角进行三角测量，这使得基于单相机的机器人定位系统在定位中缺少深度信息，很难感知相机视野中机器人的尺度变化。当机器人带着四月码进行如图\ref{img4_3}所示的移动时，基于固定位置的单相机机器人定位将引入巨大的定位误差。\par
+    \begin{figure}[htb]
+        \centering
+        \begin{minipage}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=1.0\textwidth]{de.png}
+            \caption{机器人大尺度变化移动示意图}
+            \label{img4_3}
+        \end{minipage}
+        \begin{minipage}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=1.0\textwidth]{de.png}
+            \caption{图像中尺度过小的四月码}
+            \label{img4_4}
+        \end{minipage}
+    \end{figure}
+    基于角点检测的检测器通过对封闭四边形的检测寻找图像中的四月码，但是为了尽量缩短线段检测所消耗的时间，检测器中对图像进行了降采样处理，降低了图像的分辨率，许多小规模的四边形被过滤。当四月码随着机器人运动到距离相机很远的位置时，其在图像中的呈现如图\ref{img4_4}所示，检测器将它视为小规模的四边形而放弃对它的检测与验证。即使检测器能够检测到该四月码，四月码四个外围角点因为尺度问题聚集在一起，~Epnp~方法对于图像中过于集中的特征点会产生较大的估计误差。上述问题的存在使得基于单相机的机器人定位系统无法定位距离相机较远的机器人。\par
+    无论是遮挡问题、机器人在相机视野中的尺度变化还是对小规模四月码的定位，基于单相机的机器人定位系统都无法解决，在室内环境的机器人定位工作中存在一定的局限性，根据这些分析引入基于多相机的机器人定位方法，规避以上问题带来的异常定位。
+\section{基于多相机的机器人定位方法}
+    由于单目相机在环境感知的过程中采集到的图像缺乏深度信息，所以在~SLAM~领域，许多研究驱使单目相机在地图中进行位移，通过在不同时刻不同位置采集图像弥补缺失的深度信息，在对机器人进行定位时，这种方法带来了巨大的计算消耗。本文围绕上一节单相机定位的局限性，提出基于多相机的机器人定位方法，进一步减少了机器人异常定位，也摆脱了~SLAM~需要额外空间缓存图片的限制。
+\subsection{定位场景的布局设置}
+    在单相机定位机器人的场景中，由于参与定位的单目工业相机只有一台，没有特定的布局，更多地是对相机拍摄角度、相机自身参数的调整，而多相机定位机器人的场景中，为突破单相机定位的局限性，需要对定位场景的布局进行设置，规定多台相机的摆放方案，确保定位范围的最大化以及异常定位的最小化。\par
+    本文以两台相机和四台相机的情况为例，对两种情况下的场景布局方案进行说明，图\ref{img4_5}与图\ref{img4_6}分别展示了俯视视角下两台相机的布局与四台相机的布局。\par
+    \begin{figure}[htb]
+        \centering
+        \begin{minipage}[t]{0.3\textwidth}
+            \centering
+            \includegraphics[width=1.0\textwidth]{4-5.pdf}
+            \caption{两台相机的布局图}
+            \label{img4_5}
+        \end{minipage}
+        \begin{minipage}[t]{0.53\textwidth}
+            \centering
+            \includegraphics[width=1.0\textwidth]{4-6.pdf}
+            \caption{四台相机的布局图}
+            \label{img4_6}
+        \end{minipage}
+    \end{figure}
+    图\ref{img4_5}中的蓝色区域表示~1~号相机对四月码有效检测的视野范围，橙色区域表示~2~号相机对四月码正常检测的视野范围，通过将两台相机正对设置，使两台相机的正常检测视野范围尽可能地重叠，四月码在重叠区域中可同时被两台相机有效检测，最终通过定位结果融合解决一台单目相机在定位时缺乏深度信息的问题。此外，当机器人带着四月码离开了~1~号相机的有效检测范围，使四月码在~1~号相机中的规模较小时，~2~号相机的设置可以使系统在一定范围内准确检测该四月码并估计其位姿。\par
+    图\ref{img4_5}中的两台相机布局虽然解决了深度信息缺失和四月码过小的问题，但它的定位范围依然比较小，布局中存在较多定位盲区，图\ref{img4_6}中四台相机的布局扩大了定位范围。原来的两台相机依旧保持正对并保证有效检测范围的大面积重叠，新增的两台相机分别设置于分割线的两侧，对~1~号相机与~2~号相机的视野盲区进行补充定位，它们之间不需要保证有效检测区域的大面积重叠，只需保证四台相机的有效检测区域有重叠部分。当机器人带着四月码离开了原来两台相机的横向定位范围，则新增的两台相机可以弥补它们的盲区，进行辅助的四月码检测与机器人定位。
+\subsection{坐标系统一}
+    多台相机的引入使得多个固定的相机坐标系被添加至整个空间中，在多台相机定位的过程中，这些相机的位姿也是定位机器人的重要参数。在单相机定位的场景中，系统通过四月码标记物设置基准坐标系，利用标记物上的已知~3D~点与图像平面上的标记物角点建立~3D-2D~的点对关系计算相机坐标系与基准坐标系的转换关系，从而得到相机在基准坐标系下的位姿。而多相机定位的场景中，结合特殊布局，基准坐标系的设置也有一定的要求。为了使多台相机都能建立与基准坐标系的关系，代表基准坐标系的四月码应当设置在多台相机的共同有效视域中，即上一节提到的重叠区域，如图\ref{img4_7}所示。
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.9\textwidth]{4-7.pdf}
+        \caption{多相机场景中的基准坐标系设置}
+        \label{img4_7}
+    \end{figure}
+    \par
+    为了求解各个相机在基准坐标系下的位姿，进行良好的坐标系统一，本文利用了标记物平面与图像成像平面之间的单应变换对各个相机进行位姿估计。单应矩阵将两个平面上的点进行关联，如图\ref{Hom}所示，它们之间的关系可表示为：
+    \begin{equation}
+        \begin{bmatrix}
+            x \\
+            y \\
+            1
+        \end{bmatrix}
+        =s
+        \begin{bmatrix}
+            h_{11} & h_{12} & h_{13} \\
+            h_{21} & h_{22} & h_{23} \\
+            h_{31} & h_{32} & h_{33}
+        \end{bmatrix}
+        \begin{bmatrix}
+            X \\
+            Y \\
+            1
+        \end{bmatrix}
+        \label{Hom}
+    \end{equation}
+    式中的~3*3~矩阵即为待求的单应矩阵。因为是两个平面之间的变换，没有固定的尺度，可以进行任意的缩放，因此根据公式\ref{Hom}可得：
+    \begin{equation}
+        \begin{aligned}
+            x &= \frac{h_{11}X+h_{12}Y+h_{13}}{h_{31}X+h_{32}Y+h_{33}} \\
+            y &= \frac{h_{21}X+h_{22}Y+h_{23}}{h_{31}X+h_{32}Y+h_{33}}
+        \end{aligned}
+        \label{Hom2}
+    \end{equation}
+    对公式\ref{Hom2}进行整理得到：
+    \begin{equation}
+        \begin{aligned}
+            Xh_{11}+Yh_{12}+h_{13}-xXh_{31}-xYh_{32}-xh_{33} &= 0 \\
+            Xh_{21}+Yh_{22}+h_{23}-yXh_{31}-yYh_{32}-yh_{33} &= 0
+        \end{aligned}
+        \label{Hom3}
+    \end{equation}
+    将公式\ref{Hom3}整理成矩阵相乘的形式，分离出已知的点对坐标与未知的单应矩阵元素，如公式\ref{Hom4}所示：
+    \begin{equation}
+        \begin{bmatrix}
+            X_1 & Y_1 & 1 & 0 & 0 & 0 & -x_1X_1 & -x_1Y_1 & -x_1 \\
+            0 & 0 & 0 & X_1 & Y_1 & 1 & -y_1X_1 & -y_1Y_1 & -y_1 \\
+             & & & & & \cdots \\
+        \end{bmatrix}
+        \begin{bmatrix}
+            h_{11} \\ h_{12} \\ h_{13} \\ h_{21} \\ h_{22} \\ h_{23} \\ h_{31} \\ h_{32} \\ h_{33}
+        \end{bmatrix}
+        =0
+        \label{Hom4}
+    \end{equation}
+    虽然式中有~9~个未知数需要求解，但是约束$||H||=1$使得单应矩阵只有~8~个自由度，通过四组点对即可完成对单应矩阵的求解，而四月码四个外围角点也恰好可以作为点对数据组成已知量矩阵$A$，公式\ref{Hom4}简化为公式\ref{Hom5}。
+    \begin{equation}
+        Ah=0
+        \label{Hom5}
+    \end{equation}
+    这种形式的表达式可通过对$A$矩阵进行~SVD~分解从而求得单应矩阵的元素。公式\ref{Hom}除了表示两个平面之间点对的关联关系，也表示了一个~3D~点到~2D~点的转换关系，因此单应矩阵是由相机内参矩阵与相机外参矩阵组合而成，如公式\ref{Hom6}所示。
+    \begin{equation}
+        \begin{bmatrix}
+            \bm{h_1} & \bm{h_2} & \bm{h_3}
+        \end{bmatrix}
+        =K
+        \begin{bmatrix}
+            \bm{r_1} & \bm{r_2} & \bm{t}
+        \end{bmatrix}
+        \label{Hom6}
+    \end{equation}
+    式中的$\bm{h_i}$表示$\left[ h_{i1} \quad h_{i2} \quad h_{i3}\right]^T$。
+    在已知相机内参的情况下能够求解相机外参，而相机外参也表示了相机在基准坐标系下的位姿，如公式\ref{Hom7}所示。
+    \begin{equation}
+        \begin{aligned}
+            \bm{r_1} &= \lambda K^{-1}\bm{h_1} \quad \bm{r_2}=\lambda K^{-1}\bm{h_2} \\
+            \bm{t} &= \lambda K^{-1}\bm{h_3} \quad \bm{r_3} = \bm{r_1} \times \bm{r_2} \\
+            \lambda &= \frac{1}{||K^{-1}\bm{h_1}||}=\frac{1}{||K^{-1}\bm{h_2}||}
+        \end{aligned}
+        \label{Hom7}
+    \end{equation}
+    $\bm{r_3}$根据旋转矩阵的性质由$\bm{r_1}$与$\bm{r_2}$叉乘所得，它们共同构成了相机位姿的旋转部分，$\lambda$代表尺度参数，同样根据旋转矩阵的约束求得。\par
+    在完成了多相机场景的布局并设置好代表基准坐标系的四月码之后，系统结合每台相机采集的四月码图像，采用上述的相机位姿估计方法，计算基准坐标系到各个相机坐标系的转换关系。在多相机定位过程中，每台相机都能得到机器人在各自相机坐标系下的坐标，此时通过各台相机的对应位姿，将这些坐标全部转换到设置的基准坐标系中，实现坐标系的统一。
+\subsection{多相机协同运作机制}
+    多相机协同运作机制引入多个规格相同的单目工业相机，在布局完成的场景中实现多台相机同时跟踪定位机器人的功能。该机制借助多线程实现，每一个线程承担一台相机从采集图像开始到定位结束之间的执行任务，通过这种形式既保证每一台相机的定位流程相对独立，又实现了多相机共同定位的过程。\par
+    由于跟踪器在初始化时需要人为输入感兴趣区域（Region of Interest，ROI），本文将每台相机代表的流程中均完成~ROI~的输入作为多相机协同运作开始的信号，这也将线程执行的任务分为两类，如图\ref{img4_8a}与图\ref{img4_8b}所示。\par
+    \begin{figure}[htb]
+        \centering
+        \subfigure[等待~ROI~输入的任务]{
+            \begin{minipage}{1.0\textwidth}
+                \centering
+                \includegraphics[width=0.7\textwidth]{4-8a.pdf}
+                \label{img4_8a}
+            \end{minipage}
+        }
+        \subfigure[正常定位的任务]{
+            \begin{minipage}{1.0\textwidth}
+                \centering
+                \includegraphics[width=0.75\textwidth]{4-8b.pdf}
+                \label{img4_8b}
+            \end{minipage}
+        }
+        \caption{线程执行任务流程图}
+        \label{img4_8}
+    \end{figure}
+    图\ref{img4_8a}展示的是等待~ROI~输入完毕并作第一帧图像定位的任务流程，在这个任务流程中，与各台相机所采集图像对应的~ROI~的输入是启动定位的关键，具体实现上采用了全局标志位$global\_flag$作为收集~ROI~输入情况的容器，其计算的过程如下所示：
+    \begin{equation}
+        global\_flag=f_1 \& f_2 \& \cdots \& f_n
+        \label{gf}
+    \end{equation}
+    $f_i$表示第$i$号相机对应的流程中~ROI~的输入情况，~0~表示未输入，~1~表示已输入，只有当全部的~ROI~都输入的情况下，该全局标志位才能置~1~从而开始多相机协同定位流程。图\ref{img4_8b}展示的是开始多相机协同运作之后的正常定位流程，在采集到图像之后，线程驱使跟踪器、检测器依次工作，提取图像中的目标区域与关键角点特征，最后对机器人位姿进行估计。\par
+    在多相机协同定位开始的第一帧图像中，检测器对~ROI~中的四月码进行检测，由于机器人初始设置的位置对于一些相机来说并不能很好地被观测，部分线程负责的流程中无法在~ROI~中检测到四月码。此外，在正常定位的任务流程中也会发生跟踪器跟踪失败、检测器无法检测到四月码的情况，这些都是机器人离开了相机的有效观测范围引起的。为了使相机代表的定位流程在机器人重新进入该相机有效观测范围时能够正常进行，本文设计了重跟踪算法，具体过程如~\textbf{Algorithm}~\ref{retrack}所示。\par
+    \begin{algorithm}[htb]
+        \setcounter{algorithm}{2}
+        \caption{重跟踪算法}
+        \label{retrack}
+        \begin{algorithmic}[1]
+            \Require 定时计数$time\_count$，相机焦距$f_x,f_y$，相机主点偏移$c_x,c_y$，相机坐标系下坐标$X_c,Y_c,Z_c$，图像$IMG$
+            \Ensure 机器人是否重新进入相机有效观测范围的判断
+            \State $u \leftarrow -1$
+            \State $v \leftarrow -1$
+            \If{$time\_count < 5$}
+                \State \Return false
+            \Else
+                \State $time\_count \leftarrow 0$
+                \State $u \leftarrow \frac{f_xX_c}{Z_c}+c_x$
+                \State $v \leftarrow \frac{f_yY_c}{Z_c}+c_y$
+                \If{$u \ge 0$ \textbf{and} $u < img\_width$}
+                \Comment{$img\_width$表示图像宽度}
+                    \If{$v \ge 0$ \textbf{and} $v < img\_height$}
+                    \Comment{$img\_height$表示图像高度}
+                        \If{四月码在$IMG$中被成功检测 is true}
+                            \State 重构目标区域
+                            \State \Return true
+                        \EndIf
+                    \EndIf
+                \EndIf
+                \State \Return false
+            \EndIf
+        \end{algorithmic}
+    \end{algorithm}
+    重跟踪算法充分体现了多相机工作的协同性。当机器人带着四月码离开了相机的有效观测范围，该流程转入重跟踪算法，执行一个时间间隔为~5~秒的定时任务。在该任务中首先查找当前时间下由其他相机流程估计的机器人位置，然后将代表该位置的~3D~点$P$通过相机外参转化至相机坐标系下的坐标$P_c(X_c,Y_c,Z_c)$：
+    \begin{equation}
+        P_c=RP+t
+        \label{w2c}
+    \end{equation}
+    结合公式\ref{wTop}得到像素点的计算公式：
+    \begin{equation}
+        u=\frac{f_xX_c}{Z_c}+c_x \quad v=\frac{f_yY_c}{Z_c}+c_y
+        \label{uv}
+    \end{equation}
+    将像素点坐标$p(u,v)$与图像边界进行比较，判断点$P$是否成功重投影至该相机的像素平面上，如公式\ref{uv2}所示。
+    \begin{equation}
+        0 \le u < image\_width \quad 0 \le v < image\_height
+        \label{uv2}
+    \end{equation}
+    若$u$与$v$的值满足公式\ref{uv2}中的两个条件，则说明三维点的重投影成功，接着检测器以整个图像为目标区域对四月码进行检测，最后以图中四月码的位置信息为基础重构跟踪器所需的目标区域。目标区域的重构如图\ref{img4_9}所示，
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.9\textwidth]{3-7.pdf}
+        \caption{目标区域重构示意图}
+        \label{img4_9}
+    \end{figure}
+    四月码的位置信息构成一个外接矩形，本文将宽与高均比外接矩形长~200~像素的矩形区域作为重构的目标区域，一方面为跟踪器中分类器的训练提供了更多的负样本，另一方面严格控制目标区域的大小，保证检测器执行四月码检测时的速度。\par
+    常规的多线程方法在需要使用线程时创建线程，在线程结束时销毁线程，这两个动作存在着一定的开销，当创建与销毁过于频繁时会造成巨大的资源消耗。系统中每个线程的任务执行都从图像采集开始，而图像采集在整个系统中是执行最为频繁的操作，常规的多线程方法会因此产生足以影响系统性能的额外开销。线程池的引入很好地解决了这个问题，在线程池初始化时在线程池中创建数量与相机数目相同的线程。这些线程的生命周期与线程池同步，不会在线程池工作期间被销毁，任务队列中没有任务时，空闲线程并不占用计算资源，而当任务队列中有任务排队时，线程调度器会调度空闲线程去响应待处理的任务。
+\subsection{定位结果融合}
+    多相机协同运作机制中的多线程任务在同一时刻产生了多个定位结果，这些结果中包含了各台相机从不同的角度观察机器人与四月码的深度信息。针对同一时刻的多个线程执行任务产生的定位结果，将它们进行融合得到更为精确的机器人位置，如图\ref{img4_12}所示，
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.95\textwidth]{4-12.pdf}
+        \caption{多线程定位任务的结果融合示意图}
+        \label{img4_12}
+    \end{figure}
+    但是每个线程中采集的图像因为拍摄角度的不同而包含不同数量的特征，不同线程中的跟踪器与检测器执行的时间因此存在差异，这产生了无法忽视的时间差问题，在结果融合中是需要解决的关键问题。\par
+    本文结合多相机布局与机器人移动方式设计了一种时间同步的算法，解决了时间差问题，同时实现了定位结果的融合。算法采用了时间分段的策略，以多线程下各任务中的~ROI~输入完毕的时刻作为起始时刻，记作$t_{start}$，之后将定位任务中图像采集完毕的时刻作为当前时刻，记作$t_{cur}$，根据定位时机器人的移动速度选择一个合适的基准时间间隔和时间阈值，分别记作$\dot{t}$和$\tilde{t}$，基准时间间隔应当足够小，在这个间隔的时间内机器人没有发生大幅度的移动。它们之间的关系如图\ref{img4_14}所示，
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.95\textwidth]{4-14.pdf}
+        \caption{时间分段策略示意图}
+        \label{img4_14}
+    \end{figure}
+    整个定位流程消耗的时间以时间阈值$\tilde{t}$为基准等分为$N$份，而其中的每一份都以基准时间间隔$\dot{t}$为基准等分为$M$份，即
+    \begin{equation}
+        N=T_{\text{总}}/\tilde{t} \quad M=\tilde{t}/\dot{t}
+        \label{NM}
+    \end{equation}
+    围绕上述时间分段的策略设置两个相同的结构体协助进行时间同步，其组成如图\ref{img4_13}所示，
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.7\textwidth]{4-13.pdf}
+        \caption{时间同步结构体组成示意图}
+        \label{img4_13}
+    \end{figure}
+    该结构体与图\ref{img4_14}中的~T$_1$~时间段对应，头部中的~start\_time~记录一个开始时间，标志着该结构体中统计的定位结果均在该时间之后被计算得到，~update\_count~记录了这个结构体中总的数据更新次数，主体是一个数据数组，数组大小~n~与公式\ref{NM}中的$M$对应，数组元素由累加的结果~result\_sum~、累加的次数~count~和参与融合的相机编号数组组成。当当前时间$t_{cur}$被记录时，算法通过公式\ref{cali}计算出当前时间对应的数组下标$i$，
+    \begin{equation}
+        i=\lfloor \frac{t_{cur}-t_{start}}{\dot{t}} \rfloor
+        \label{cali}
+    \end{equation}
+    并在对应下标的元素中融合$t_{cur}$时刻图像中得到的定位结果，图\ref{img4_14}中$t_{cur}$落在$t_2$段中，应当与该段包含的定位结果进行融合。以$t_{cur}$时刻采集的图像为样本能够得到合格的定位结果，将其记作$result$，得到该结果的相机编号记作$id$，则融合的过程如~\textbf{Algorithm}~\ref{fusion}所示。
+    \begin{algorithm}[htb]
+        \setcounter{algorithm}{3}
+        \caption{数据融合}
+        \label{fusion}
+        \begin{algorithmic}[1]
+            \Require 结构体中的数据数组$A$，数组大小$n$，当前时刻$cur\_time$，待融合定位结果$result$，参与融合的相机编号$id$
+            \Function{data-fusion}{$cur\_time,result,id$}
+                \State $i \leftarrow (cur\_time-start\_time)/\dot{t} + 1$
+                \If{$i > n$}
+                    \State \Return
+                \Else
+                    \State $update\_count \leftarrow update\_count+1$
+                    \Comment{$update\_count$指$A$的总更新次数}
+                    \State $A[i].result\_sum \leftarrow A[i].result\_sum+result$
+                    \State $A[i].count \leftarrow A[i].count+1$
+                    \State $A[i].camera\_ID[id] \leftarrow 1$
+                    \Comment{未参与该时间段数据融合的相机编号值为0}
+                \EndIf
+            \EndFunction
+        \end{algorithmic}
+    \end{algorithm}
+    随着时间的推移，当前时刻$t_{cur}$与开始时刻$t_{start}$的差值必然会超过时间阈值$\tilde{t}$，到达下一个大时间段，此时算法将这个时刻待融合的定位结果暂存在第二个结构体中，该结构体中的~start\_time~是前一个结构体中~start\_time~与时间阈值之和，以同样的规则对这一结构体进行更新。若第一个结构体超过一段时间没有更新，则执行数据数组中的融合结果计算，数据数组中的每一个元素记录了累加结果与累加次数，通过均值计算对每个时间段的最终融合结果进行求解，如公式\ref{PF}所示：
+    \begin{equation}
+        \bm{P_{fusion}}=\frac{result\_sum}{count}
+        \label{PF}
+    \end{equation}
+    对于数据数组中下标为$i$的元素求解得到的最终融合结果$\bm{P_{fusion}^i}$，以时刻$t_{start}+(i+1)*\dot{t}$表示产生该结果的时间，如公式\ref{tP}所示。
+    \begin{equation}
+        t_{start}+(i+1)*\dot{t} \Longleftrightarrow \bm{P_{fusion}^i}
+        \label{tP}
+    \end{equation}
+    完成了第一个结构体的定位结果融合与整理后，将最终的时刻、定位结果以及相关相机编号记录于文件中，并清空第一个结构体中的内容，使其发挥与之前第二个结构体相同的作用，暂存定位结果，防止溢出数据的丢失。\par
+    时间同步算法不仅融合了多台相机在同一微小时间段内的定位结果，还融合了一台相机在一个微小时间段中采集多幅图像产生的定位结果，实现了横向与纵向上的结果融合，对繁杂的定位结果进行了整理。
+\section{基于多相机布局的精度优化策略}
+\subsection{多相机布局的图构建}
+    多相机的机器人定位方法构建了多相机布局，以多相机协同工作的方式对机器人进行定位，最终的机器人定位结果通过结果融合方法缩小了定位误差。该优化方法主要针对因机器人深度变化而引起的定位误差，它无法处理场景噪声所产生的误差，噪声的存在导致了定位过程中误差的积累，是除了深度变化以外对定位结果影响较大的另一因素。\par
+    噪声带来的累积误差在定位过程中难以被处理，因此可以在定位结束后针对定位结果进行累积误差的优化。本文引入图结构对累积误差进行后端优化，多相机的布局以及待优化的~3D~点坐标共同构成了图中的元素。本文使用的图结构由图节点与二元边构成，如图\ref{img4_10}所示，
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.4\textwidth]{4-10.pdf}
+        \caption{图节点与边的定义}
+        \label{img4_10}
+    \end{figure}
+    一条二元边的两端节点分别被定义为~3D~点位置$\bm{P}$和参与定位该~3D~点的某一相机的相机位姿$T(R,\bm{t})$，二元边被定义为~3D~点到该相机成像平面的投影过程，该投影过程如公式\ref{Pp'}所示。
+    \begin{equation}
+        \bm{p'}=K(R\bm{P}+\bm{t})
+        \label{Pp'}
+    \end{equation}
+    检测器本身在相机采集的图像中能够检测到该~3D~点对应的像素点$\bm{p}$，将检测所得的像素点作为观测值，重投影产生的像素点作为估计值，噪声的存在使估计值与观测值不会重合，它们之间的偏差成为衡量优化程度的参数，如公式\ref{e}所示：
+    \begin{equation}
+        \bm{e}=\bm{p}-\bm{p'}=\bm{p}-K(R\bm{P}+\bm{t})
+        \label{e}
+    \end{equation}
+    $\bm{e}$是一个三维向量，不能非常直观地评估估计值与观测值之间的误差，所以本文采取它的平方形式$E$作为误差评估的标量，如公式\ref{E}所示：
+    \begin{equation}
+        E=\bm{e}^T\bm{e}
+        \label{E}
+    \end{equation}
+    这个标量越接近~0~，就说明重投影的像素点越接近检测得到的像素点。\par
+    基于以上定义，以四台相机的布局为例，相机与~3D~点构建的图结构如图\ref{img4_11}所示。
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[width=0.6\textwidth]{4-11.pdf}
+        \caption{四台相机布局构建的图结构}
+        \label{img4_11}
+    \end{figure}
+    图中方形图节点表示相机位姿，圆形图节点表示~3D~点位置，一个圆形图节点最多被四个方形图节点连接，这表示这个~3D~点处于四台相机的共同有效观测范围，由四台相机的定位结果融合而成。由于未被四台相机观测到的~3D~点不会作为图节点出现在图中，所以圆形图节点至少有一个方形图节点与其连接。
+\subsection{基于图的精度优化}
+    多相机的布局与待优化的机器人定位结果完成了图的构建，图中的节点与边得到了完整的定义，围绕构建的图展开对定位结果的优化。图中一条二元边代表的误差评估标量为$E$，将所有二元边代表的误差评估标量累加，形成一个总体的优化求解问题，如公式\ref{f}所示。
+    \begin{equation}
+        f=\sum_{k=1}^nE_k=\sum_{k=1}^n\bm{e_k}^T\bm{e_k}
+        \label{f}
+    \end{equation}
+    在这个优化问题中，待优化的变量是代表机器人位置的~3D~点坐标$\bm{P}$，将这个变量加入公式\ref{f}得到：
+    \begin{equation}
+        f=\sum_{k=1}^nE_k(\bm{P_k})=\sum_{k=1}^n\bm{e_k}(\bm{P_k})^T\bm{e_k}(\bm{P_k})
+        \label{f2}
+    \end{equation}
+    $\bm{P_k}$表示第$k$条二元边对应的~3D~点坐标，寻找每条边对应的优化变量使得$f$的取值最小。\par
+    针对第$k$条边展开对优化变量$\bm{P'_k}$的求解，为初始值$\bm{\tilde{P}_k}$提供一个微小的增量$\bm{\Delta P}$，在这个增量的作用下，$E_k$会变小，其形式也转变为：
+    \begin{equation}
+        E_k(\bm{\tilde{P}_k}+\bm{\Delta P})=\bm{e_k}(\bm{\tilde{P}_k}+\bm{\Delta P})^T\bm{e_k}(\bm{\tilde{P}_k}+\bm{\Delta P})
+        \label{E2}
+    \end{equation}
+    对优化变量的求解划分为对增量$\bm{\Delta P}$的迭代求解。公式\ref{E2}中误差项由$\bm{e_k}(\bm{\tilde{P}_k})$变成了$\bm{e_k}(\bm{\tilde{P}_k}+\bm{\Delta P})$，对误差项进行一阶展开：
+    \begin{equation}
+        \begin{aligned}
+            \bm{e_k}(\bm{\tilde{P}_k}+\bm{\Delta P}) &\approx \bm{e_k}(\bm{\tilde{P}_k})+\frac{d\bm{e_k}}{d\bm{P}}\bm{\Delta P} \\
+            &= \bm{e_k}(\bm{\tilde{P}_k})+J_k\bm{\Delta P}
+        \end{aligned}
+        \label{ek2}
+    \end{equation}
+    公式\ref{ek2}中的$J_k$表示误差项关于~3D~点坐标的导数，被称为雅可比矩阵。在一阶展开后，误差评估标量也能够进一步展开：
+    \begin{equation}
+        \begin{aligned}
+            E_k(\bm{\tilde{P}_k}+\bm{\Delta P}) &= \bm{e_k}(\bm{\tilde{P}_k}+\bm{\Delta P})^T\bm{e_k}(\bm{\tilde{P}_k}+\bm{\Delta P}) \\
+            &\approx (\bm{e_k}(\bm{\tilde{P}_k})+J_k\bm{\Delta P})^T(\bm{e_k}(\bm{\tilde{P}_k})+J_k\bm{\Delta P}) \\
+            &= \bm{e_k}(\bm{\tilde{P}_k})^T\bm{e_k}(\bm{\tilde{P}_k})+2\bm{e_k}(\bm{\tilde{P}_k})^TJ_k\bm{\Delta P}+\bm{\Delta P}^TJ_k^TJ_k\bm{\Delta P}
+        \end{aligned}
+        \label{E3}
+    \end{equation}
+    从公式\ref{E3}中可知增量$\bm{\Delta P}$使得误差评估标量也产生了增量$\Delta E_k$，表示形式如公式\ref{E4}所示：
+    \begin{equation}
+        \Delta E_k=2\bm{e_k}(\bm{\tilde{P}_k})^TJ_k\bm{\Delta P}+\bm{\Delta P}^TJ_k^TJ_k\bm{\Delta P}
+        \label{E4}
+    \end{equation}
+    为了使误差评估标量变小，寻找一个特定增量$\bm{\Delta P}$使得$\Delta E_k$取得极小值，为此令$\Delta E_k$对$\bm{\Delta P}$的导数为~0~，以求解本次迭代的增量$\bm{\Delta P}$，如公式\ref{E5}所示。
+    \begin{equation}
+        \frac{d\Delta E_k}{d\bm{\Delta P}} = 2\bm{e_k}(\bm{\tilde{P}_k})^TJ_k+2J_k^TJ_k\bm{\Delta P} = 0
+        \label{E5}
+    \end{equation}
+    根据公式\ref{E5}得到关于增量$\bm{\Delta P}$的等式，如下所示：
+    \begin{equation}
+        \begin{aligned}
+            J_k^TJ_k\bm{\Delta P} &= -\bm{e_k}(\bm{\tilde{P}_k})^TJ_k \\
+            H_k\bm{\Delta P} &= -b_k
+        \end{aligned}
+        \label{E6}
+    \end{equation}
+    式中$H_k$是海塞矩阵，$b_k$表示了等号右侧的已知量。公式\ref{E6}表征了第$k$条边的优化求解，将所有边累加后形成一个整体求解的形式，如公式\ref{E7}所示。
+    \begin{equation}
+        H\bm{\Delta P}=-b
+        \label{E7}
+    \end{equation}
+    最终整体优化问题通过公式\ref{E7}进行线性求解，每次迭代得到的$\Delta P$用于修正当此迭代的初始值，并将修正后的~3D~点坐标作为下次迭代的初始值，重复上述过程直到迭代结束，此时最终被修正的~3D~点坐标即为该优化问题的最终解，也是优化后使重投影误差最小的最优解，如公式\ref{E8}所示。
+    \begin{equation}
+        \bm{P'_k}=\bm{P_k}+\bm{\Delta P}^{(1)}+\bm{\Delta P}^{(2)}+\dots+\bm{\Delta P}^{(m)}
+        \label{E8}
+    \end{equation}
+    $m$表示进行优化问题求解的最终迭代次数，$\bm{\Delta P}^{(l)}$表示第$l$次迭代得到的增量。\par
+    多台相机定位的场景与~SLAM~中一台相机通过平移旋转对~3D~点进行定位的场景非常类似，因此多台相机的布局适合构建图结构，而图的构建使得原本只能逐一优化的重投影误差能够组合成一个整体，通过对整体优化问题的求解达到最小化每个~3D~点的重投影误差的目的，这在定位系统的后端精度优化处理中产生了较好的效果。
+    
+% \section{apriltag检测性能优化策略}
+%     apriltag检测在整个定位流程中有着将图像特征数据转化为位姿估计数据的重要作用，该部分的性能好坏将极大地影响对机器人定位的结果。出于图像分辨率过高、环境影响因素过多的原因，本文围绕检测的实时性和鲁棒性展开对检测性能的讨论。
+% \subsection{基于检测实时性的优化方法}
+%     在进行图像处理的过程中，特征检测占据了大量的时间，对检测过程进行时间上的优化，能够极大地提升图像处理的速度。\par
+%     在本文的系统中，由于工业相机图像的分辨率为~2448*2048~，远超普通相机采集的图片分辨率，且~apriltag~代表的像素在图像所有像素中所占比例较低，因此在全图执行~apriltag~检测时，系统会在那些无用的像素点上浪费大量的时间，导致对一帧图像的处理时间过长。而图像是相机在一定帧率下不断采集得到的，若检测的速度不够快，会造成未处理图像的积累，如图\ref{img4_2}所示。
+%     % \begin{figure}[htb]
+%     %     \centering
+%     %     \includegraphics[width=0.45\textwidth]{4-1.pdf}
+%     %     \caption{检测速度过慢导致的图像累积现象}
+%     %     \label{img4_2}
+%     % \end{figure}
+%     这些未处理图像不会经由系统产生指定时刻的位姿，而当机器人移动速度过快时，系统便会产生位姿缺失现象。因此，系统需要保证对~apriltag~检测的实时性。\par
+%     本文从减少对无用像素点的检测出发，提出结合跟踪器与检测器的方法，进一步提高~apriltag~代表的像素点在被检测像素点中所占的比例。在第三章中，图像处理模块展示了跟踪器与检测器的作用，跟踪器锁定了一帧图像中~ROI~的位置，检测器确定了~apriltag~四个角点在全图中的像素坐标，并将像素坐标与~ROI~位置作对照，确定合法坐标。跟踪器在锁定~ROI~位置时并不需要对全图的像素进行分析，本文利用这一点，放弃在检测时将检测范围设置为全图的策略，采用~ROI~内部检测的方法，加快了检测器执行的速度，如图\ref{img4_3}所示。
+%     % \begin{figure}[htb]
+%     %     \centering
+%     %     \includegraphics[width=0.8\textwidth]{4-2.pdf}
+%     %     \caption{检测策略变化示意图}
+%     %     \label{img4_3}
+%     % \end{figure}
+%     由于检测器运行在~ROI~中，其检测得到的角点像素坐标也是基于~ROI~的，因此系统结合~ROI~的位置信息，将检测得到的角点像素坐标从局部转换到全局。
+% \subsection{基于检测鲁棒性的优化方法}
+%     本文对机器人进行定位的场景是室内，室内环境有着光线变化差异较大、存在短时遮蔽物的特点，前者使得工业相机在光线变化时采集到的图像质量较差，系统无法准确地对有效像素特征进行检测，后者使得~apriltag~在相机视野中的主要特征被遮蔽物的特征所取代，造成了机器人没有出现在相机视野中的假象。\par
+%     在上述因素的影响下，跟踪器无法计算得到当前帧的~ROI~位置，因为跟踪器未能输出合理的~ROI~信息，检测器也无法执行局部的检测，那么从问题帧开始，系统将难以对机器人进行后续的跟踪检测，产生了跟丢的现象。\par
+%     为保证系统检测的鲁棒性，本文提出了重跟踪方法解决跟丢的问题。重跟踪方法着眼于~ROI~信息的缺失，利用正常帧像素特征，进行~ROI~的重构。当跟丢现象发生时，系统设置跟丢标志位，告知跟踪器与检测器参与下一帧图像的重跟踪方法。在下一帧图像中，检测器首先发起对全图的~apriltag~检测，若此时~apriltag~确实还在相机视野中，那么检测器便会检测出全图范围下~apriltag~的四个角点并输出它们的像素坐标；根据这四组像素坐标，系统构造出图像中~apriltag~的外接矩形，该外接矩形具有了~ROI~的基本性质，但是出于以下原因仍不能作为重构的~ROI~：\par
+%     （1）外接矩形所围成的区域虽然包括了一整个~apriltag~，但是~apriltag~周围的图像特征过少，无法帮助跟踪器进行有效的自学习，从而导致跟踪器执行跟踪时计算量变大且跟踪精度下降；\par
+%     （2）机器人在移动的过程中会造成依附于其表面的~apriltag~的尺度变化，若~apriltag~在下一帧图像中突然变大，那么以外接矩形的大小，将无法覆盖到整个~apriltag~。\par
+%     因此，系统采用将外接矩形等比放大后的矩形作为重构的~ROI~，如图\ref{img4_1}所示，本文考虑检测时间与检测精度的平衡，使用长宽均比外接矩形长200像素的矩形作为重构的ROI。
+%     % \begin{figure}[htb]
+%     %     \centering
+%     %     \includegraphics[width=0.9\textwidth]{3-7.pdf}
+%     %     \caption{ROI重构示意图}
+%     %     \label{img4_1}
+%     % \end{figure}
+    
 \section{本章小结}
+    本章首先对单相机场景下的机器人定位中存在的局限性进行分析，然后从局限性出发详细说明了多相机场景下的机器人定位优化方法，围绕多台相机的布局、坐标系的统一、多相机协同运作机制、定位结果的融合展开描述，最后设计了以多相机场景为基础的图构建方法与基于图的精度优化方法。

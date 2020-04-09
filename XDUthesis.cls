@@ -54,7 +54,7 @@
 %% ifpdf
 \RequirePackage{ifpdf}
 
-\RequirePackage[titles]{tocloft}
+\RequirePackage[titles,subfigure]{tocloft}
 
 \RequirePackage{caption2}
 
@@ -251,14 +251,14 @@
 %% subsection
 \CTEXsetup[name={,},
            number={\thesubsection},
-           format={\raggedright\XDU@font@st\XDU@font@zihao{4}},
+           format={\raggedright\XDU@bold\XDU@font@st\XDU@font@zihao{4}},
            nameformat={},
            numberformat={},
            aftername={\quad},
            titleformat={},
            beforeskip={12pt plus 0pt minus 0pt},
            afterskip={6pt},
-           indent={2em}]{subsection}
+           indent={24pt}]{subsection}
 
 %% subsubsection
 \CTEXsetup[name={,},

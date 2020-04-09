@@ -1,19 +1,29 @@
 
 \begin{abstract}
-	摘要是学位论文的内容不加注释和评论的简短陈述，简明扼要陈述学位论文的研究目的、内容、方法、成果和结论，重点突出学位论文的创造性成果和观点。摘要包括中文摘要和英文摘要，硕士学位论文中文摘要字数一般为~1000~字左右，博士学位论文中文摘要字数一般为~1500~字左右。英文摘要内容与中文摘要内容保持一致，翻译力求简明精准。摘要的正文下方需注明论文的关键词，关键词一般为~3~～~8~个，关键词和关键词之间用逗号并空一格。\par
-	中文摘要格式要求为：宋体小四、两端对齐、首行缩进~2~字符，行距为固定值~20~磅，段落间距为段前~0~磅，段后~0~磅。\par
-	英文摘要格式要求为：Times New Roman、小四、两端对齐、首行不缩进，行距为固定值~20~磅，段落间距为段前~0~磅，段后~0~磅，段与段之间空一行。\par
+	室内定位的发展使工作在室内的移动机器人能够提供更加智能化的服务。室内定位技术能够通过各式各样的传感器采集室内的丰富信息，充分利用这些信息构建算法模型，从而确定目标的位置。在多种类的信息中，因为室内环境的复杂特征，视觉信息相比其他信息具有更强的可辨识度。基于计算机视觉的室内定位技术与视觉信息关系密切，是本文研究的重点。在基于计算机视觉的定位中，相机是主要传感器，本文将扫地机器人作为研究对象，采用高分辨率的单目工业相机作为视觉图像的采集传感器，通过跟踪与定位结合的方式实现一个室内移动机器人的定位系统。本文的主要研究内容包含：\par
+	（1）以个人计算机为平台实现一个面向室内移动机器人的跟踪定位系统，该系统使用单目工业相机完成图像的采集，借助特殊的标记物进行复杂特征的统一，并将目标跟踪与检测技术和位姿估计方法作为算法核心，在其中设计了跟踪器与检测器提取图像特征，通过位姿估计算法实现对扫地机器人的定位。系统分为四个模块，初始化模块实现对系统初始数据的获取，确保整个定位过程的结构化运作，并对外提供定位所需初始数据。特征检测模块实现对扫地机器人的跟踪与特征提取，关键特征的位置信息是定位算法的基本数据。机器人定位模块实现对相机位姿的离线估计和对扫地机器人位置的在线估计。可视化模块实现将连续时间的定位结果以路径的形式展现。\par
+	（2）实现基于多台相机的定位优化方法，该方法针对一台相机定位扫地机器人时存在的异物遮挡、深度信息缺失问题，搭建多台相机的场景布局，同时设定基准坐标系统一多个与相机关联的坐标系。为满足多台相机同时定位的要求，方法中实现了多相机协同运作机制，以多线程的方式完成每台相机的定位任务，并设计了重跟踪算法，充分利用多台相机多个视角的优势保证了相机进行定位任务的稳定性。针对多台相机进行定位任务存在时间差的问题，方法中设计了一种时间同步算法，将经由不同时间、不同相机所得的定位结果进行整理融合，计算更加准确的机器人位置结果。\par
+	...
+
+
+	% 摘要是学位论文的内容不加注释和评论的简短陈述，简明扼要陈述学位论文的研究目的、内容、方法、成果和结论，重点突出学位论文的创造性成果和观点。摘要包括中文摘要和英文摘要，硕士学位论文中文摘要字数一般为~1000~字左右，博士学位论文中文摘要字数一般为~1500~字左右。英文摘要内容与中文摘要内容保持一致，翻译力求简明精准。摘要的正文下方需注明论文的关键词，关键词一般为~3~～~8~个，关键词和关键词之间用逗号并空一格。\par
+	% 中文摘要格式要求为：宋体小四、两端对齐、首行缩进~2~字符，行距为固定值~20~磅，段落间距为段前~0~磅，段后~0~磅。\par
+	% 英文摘要格式要求为：Times New Roman、小四、两端对齐、首行不缩进，行距为固定值~20~磅，段落间距为段前~0~磅，段后~0~磅，段与段之间空一行。\par
 	
-	\keywords{XXX,\quad{}XXX,\quad{}XXX,\quad{}XXX,\quad{}XXX} \par
+	\keywords{定位,\quad{}跟踪,\quad{}室内,\quad{}移动机器人,\quad{}多相机} \par
 \end{abstract}
 
 \begin{englishabstract}
-	The Abstract is a brief description of a thesis or dissertation without notes or comments. It represents concisely the research purpose, content, method, result and conclusion of the thesis or dissertation with emphasis on its innovative findings and perspectives. The Abstract Part consists of both the Chinese abstract and the English abstract. The Chinese abstract should have the length of approximately 1000 Chinese characters for a master thesis and 1500 for a Ph.D. dissertation. The English abstract should be consistent with the Chinese one in content. The keywords of a thesis or dissertation should be listed below the main body of the abstract, separated by commas and a space. The number of the keywords is typically 3 to 5.
-	\par~\par
-	The format of the Chinese Abstract is what follows: Song Ti, Small 4, justified, 2 characters indented in the first line, line spacing at a fixed value of 20 pounds, and paragraph spacing section at 0 pound.
-	\par~\par
-	The format of the English Abstract is what follows: Times New Roman, Small 4, justified, not indented in the first line, line spacing at a fixed value of 20 pounds, and paragraph spacing section at 0 pound with a blank line between paragraphs.
-	~\par
+	The development of indoor positioning enables mobile robots working indoors to provide more intelligent services. Indoor positioning technology can pick a wealth of indoor information by a variety of sensors, and make full use of this information to build some algorithm models to determine the location of the target. Among various types of information, visual information is more recoganizable than other information because of the complex features in indoor environment. The indoor positioning technology based on computer vision is closely related to visual information, which is the focus of this study. In computer vision-based positioning, the camera is regarded as the main sensor. In this paper, the sweeping robot is taken as the research object, and the high-resolution monocular industrial camera is used as the acquisition device of visual images. An positioning system of indoor mobile robot is realized by combining tracking and positioning.The main research content of this paper includes:\par
+	(1) \quad Implementing a tracking and positioning system for indoor mobile robots in a personal computer. The system uses the monocular industrial camera to complete image acquisition, unifies complex features with the help of special markers, and takes the technology of target tracking and detection and the method of pose estimation as the core of the algorithm. In this system, one tracker and one detector are designed to extract image features, and the position of the sweeping robot is realized by the pose estimation algorithm. The system is divided into four modules. The initialization module realizes the acquisition of the initial data of the system, ensures the structured operation of the entire positioning process and provides the initial data required for positioning externally. The feature detection module implements tracking and feature extraction of the sweeping robot and the position information of key features is the basic data for positioning. The robot positioning module realizes the offline estimation of the camera's pose and the online estimation of the sweeping robot's position. The visualization module realizes the display of continuous-time positioning results in the form of paths.\par
+	(2) \quad Implementing a positioning optimization method based on multiple cameras. This method solves problems of Foreign body occlusion and lack of depth information when the sweeping robot is being positioned by one camera. It builds a scene of multiple cameras, and sets a reference coordinate system to unify coordinate systems related to cameras. In order to meet the requirement of simultaneous positioning of multiple cameras, the method implements a multi-camera cooperative operation mechanism. The mechanism completes the positioning task of each camera by multithreading. In this mechanism, a re-tracking algorithm is designed to make use of the advantages of multiple perspectives to ensure the stability of the camera's positioning task. In order to solve the problem of time difference in the positioning tasks of multiple cameras, a time synchronization algorithm is designed in the method. It collates and fuses the positioning results obtained by different times and different cameras to calculate more accurate results of robot position.\par
+	...\par 
+	% The Abstract is a brief description of a thesis or dissertation without notes or comments. It represents concisely the research purpose, content, method, result and conclusion of the thesis or dissertation with emphasis on its innovative findings and perspectives. The Abstract Part consists of both the Chinese abstract and the English abstract. The Chinese abstract should have the length of approximately 1000 Chinese characters for a master thesis and 1500 for a Ph.D. dissertation. The English abstract should be consistent with the Chinese one in content. The keywords of a thesis or dissertation should be listed below the main body of the abstract, separated by commas and a space. The number of the keywords is typically 3 to 5.
+	% \par~\par
+	% The format of the Chinese Abstract is what follows: Song Ti, Small 4, justified, 2 characters indented in the first line, line spacing at a fixed value of 20 pounds, and paragraph spacing section at 0 pound.
+	% \par~\par
+	% The format of the English Abstract is what follows: Times New Roman, Small 4, justified, not indented in the first line, line spacing at a fixed value of 20 pounds, and paragraph spacing section at 0 pound with a blank line between paragraphs.
+	% ~\par
 	\englishkeywords{XXX,\space{}XXX,\space{}XXX,\space{}XXX,\space{}XXX} \par
 	
 \end{englishabstract}
