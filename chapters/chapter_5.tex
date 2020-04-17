@@ -1,47 +1,61 @@
 
 \chapter{实验测试与分析评估}
-    本章设计了四组对照实验，从性能与精度上对定位系统进行测试与评估...
+    本章设计了四组对照实验，从性能与精度上对定位系统进行测试与评估... \\ \\ \\
 \section{实验测试平台与测试环境说明}
     本节对测试平台、辅助测试工具、实际测试环境以及实验测试评估指标进行说明。
 \subsection{PC端测试平台}
-    ~PC~端测试平台承担了所有系统测试与算法测试的运行，其使用~Ubuntu 16.04.4~系统，内核版本为~XXX~，采用~ROS~的~kinetic~版本辅助数据转发，此外借助~rviz~软件作结果可视化。\par
+    ~PC~端测试平台承担了所有系统测试与算法测试，其使用~Ubuntu 16.04.4~系统，内核版本为~XXX~，采用~ROS~的~kinetic~版本辅助数据转发，此外借助~rviz~工具作结果可视化。\par
     定位系统涉及大量的图像处理算法，对测试平台的处理能力有一定的要求。PC~端测试平台的~CPU~为英特尔酷睿~I5-8250~四核心八线程处理器，主频为~1.6GHz~，内存为~8G~。
 \subsection{辅助测试工具说明}
-    实验测试依托~PC~端测试平台，但仍需要其他硬件工具辅助测试。这些辅助测试工具主要有工业相机、三脚架、扫地机器人、标定板和不同尺寸的标签实体，接下来将分别对它们进行说明。\par
-    工业相机的选型是海康威视的~MV-CA050-11UM~，如图\ref{img5_1a}所示，是~500~万像素的~CMOS~面阵工业相机，芯片尺寸为~2/3~寸，相机采用~USB 3.0~传输图像数据，其采集到的图像是黑白的，分辨率为~2448*2048~。该工业相机具有全局快门、支持硬触发、软触发及自由运行模式的特点。工业相机镜头的选型是海康威视的~MVL-MF0824M-5MP~，如图\ref{img5_1b}所示，该镜头是~500~万像素的定焦镜头，焦距为~8~毫米，大小为~2/3~寸。\par
+    实验测试依托~PC~端测试平台，但仍需要其他硬件工具辅助测试。这些辅助测试工具主要有工业相机、测试用三脚架、待测试机器人、标定板和不同尺寸的标记物实体，接下来将分别对它们进行说明。\par
     \begin{figure}[htb]
         \centering
-        \begin{minipage}[t]{0.48\textwidth}
+        \begin{minipage}[t]{0.49\textwidth}
             \centering
-            \includegraphics[width=0.6\textwidth]{5-1a.png}
+            \includegraphics[width=0.95\textwidth]{5-1a.jpg}
             \caption{海康威视工业相机}
             \label{img5_1a}
         \end{minipage}
-        \begin{minipage}[t]{0.48\textwidth}
+        \begin{minipage}[t]{0.49\textwidth}
             \centering
-            \includegraphics[width=0.6\textwidth]{5-1b.png}
+            \includegraphics[width=0.95\textwidth]{5-1b.jpg}
             \caption{海康威视相机镜头}
             \label{img5_1b}
         \end{minipage}
     \end{figure}
-    三脚架为云腾~VT-6008~，如图\ref{img5_2}所示，实验中使用~157cm~的最高高度，其配置目的是固定工业相机，并在实验测试中运用云台改变工业相机的拍摄角度。\par
-    扫地机器人为米家的二代扫地机器人，如图\ref{img5_3}所示，扫地机器人内置~Ubuntu 14.04.3~操作系统，内核为~3.4.39 armv71~，同时它内置~wifi~模块，实验测试中通过该模块给机器人相应的移动指令。由于扫地机器人不作为运算平台，对扫地机器人内部的运算硬件不作过多的说明。\par
+    工业相机的选型是海康威视的~MV-CA050-11UM~，如图\ref{img5_1a}所示，是~500~万像素的~CMOS~面阵工业相机，芯片尺寸为~2/3~寸，具有全局快门的特点。相机采集到的图像是黑白的，图像分辨率为~2448*2048~，图像数据通过~USB 3.0~传输至测试平台。工业相机镜头的选型是海康威视的~MVL-MF0824M-5MP~，如图\ref{img5_1b}所示，该镜头是~500~万像素的定焦镜头，焦距为~8~毫米，大小为~2/3~寸。\par
+    % \begin{figure}[htb]
+    %     \centering
+    %     \begin{minipage}[t]{0.48\textwidth}
+    %         \centering
+    %         \includegraphics[width=0.6\textwidth]{5-1a.png}
+    %         \caption{海康威视工业相机}
+    %         \label{img5_1a}
+    %     \end{minipage}
+    %     \begin{minipage}[t]{0.48\textwidth}
+    %         \centering
+    %         \includegraphics[width=0.6\textwidth]{5-1b.png}
+    %         \caption{海康威视相机镜头}
+    %         \label{img5_1b}
+    %     \end{minipage}
+    % \end{figure}
+    测试用三脚架为云腾~VT-6008~，如图\ref{img5_2}所示，实验中使用~157cm~的最高高度，其配置目的是固定工业相机，并在实验测试中运用云台改变工业相机的拍摄角度。待测试机器人选用米家的二代扫地机器人，如图\ref{img5_3}所示，扫地机器人内置~Ubuntu 14.04.3~操作系统，内核为~3.4.39 armv71~，同时它内置~wifi~模块，在实验测试中通过该模块给机器人传输相应的移动指令。由于扫地机器人不作为运算平台，对扫地机器人内部的运算硬件不作过多的说明。\par
     \begin{figure}[htb]
         \centering
-        \begin{minipage}[t]{0.48\textwidth}
+        \begin{minipage}[t]{0.3\textwidth}
             \centering
-            \includegraphics[width=0.8\textwidth]{5-2.jpg}
+            \includegraphics[width=0.9\textwidth]{5-2.jpg}
             \caption{测试用三脚架}
             \label{img5_2}
         \end{minipage}
-        \begin{minipage}[t]{0.48\textwidth}
+        \begin{minipage}[t]{0.69\textwidth}
             \centering
-            \includegraphics[width=0.8\textwidth]{5-3.PNG}
+            \includegraphics[width=0.95\textwidth]{5-3.PNG}
             \caption{米家二代扫地机器人}
             \label{img5_3}
         \end{minipage}
     \end{figure}
-    标定板为自制~9*6~的棋盘格~pvc~板，真实大小为~A2~，如图\ref{img5_4}所示。该标定板相比纸质标定板在测试中具有更加平整的表面，有利于标定精度的提升。标签实体有不同的尺寸，如图\ref{img5_5}所示，大尺寸实体用于设定世界坐标系，小尺寸实体依附于机器人表面，用于定位。\par
+    标定板为自制~9*6~的~pvc~材质棋盘格，如图\ref{img5_4}所示。该标定板相比纸质标定板在测试中具有更加平整的表面，有利于标定精度的提升。标记物实体有不同的尺寸，如图\ref{img5_5}所示，大尺寸实体用于参考坐标系的设置，小尺寸实体依附于机器人表面，用于定位。\par
     \begin{figure}[htb]
         \centering
         \begin{minipage}{0.48\textwidth}
@@ -53,7 +67,7 @@
         \begin{minipage}{0.48\textwidth}
             \centering
             \includegraphics[width=0.9\textwidth]{5-5.png}
-            \caption{标签实体}
+            \caption{标记物实体}
             \label{img5_5}
         \end{minipage}
     \end{figure}
@@ -65,7 +79,7 @@
         \caption{实验室大厅场景}
         \label{img5_6}
     \end{figure}
-    由于工业相机搭建高度的限制，实验室大厅的测试范围约为~2m*3m~，该场景白天光线充足，特征信息丰富，与标签特征的区分度较大，适合定位系统的精度测试，晚上光线较暗，环境特征与标签特征的区分度变小，适合定位系统的稳定性测试。在两种不同条件的光照下测试能够模拟出室内光照不断改变的场景，对定位系统的应用具有很好的验证性。
+    由于工业相机搭建高度的限制，实验室大厅的测试范围约为~2m*3m~，该场景白天光线充足，特征信息丰富，与标记物特征的区分度较大，适合定位系统的精度测试，晚上光线较暗，环境特征与标记物特征的区分度变小，适合定位系统的稳定性测试。在两种不同条件的光照下测试能够模拟出室内光照不断改变的场景，对定位系统的应用具有很好的验证性。
 \subsection{实验测试评估指标}
     为验证定位系统的定位精度，本文将实际场景测量的位置信息作为真实值，将定位系统估计得到的机器人位置信息作为预测值，采用均方根误差（Root Mean Squared Error，RMSE）作为定位精度的评估，评估公式\ref{RMSE}如下：
     \begin{equation}
